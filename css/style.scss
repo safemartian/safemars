@@ -113,6 +113,9 @@ footer {
     color: var(--fonts-hover);
   }
 }
+#menuToggle {
+  display: none;
+}
 
 button {
   outline: none;
@@ -304,7 +307,7 @@ nav {
     }
   }
 }
-nav:hover {
+#navbar:hover {
   background: var(--nav-hover);
   transition: 0.5s ease-in-out;
 }
@@ -987,7 +990,7 @@ nav:hover {
     margin-left: 40px;
   }
 }
-@media (min-width: 2300px) {
+@media (max-width: 2300px) {
   @keyframes ship {
     0% {
       right: -10%;
@@ -1016,7 +1019,12 @@ nav:hover {
   }
 }
 
-@media (min-width: 1600px) {
+@media (max-width: 1600px) {
+  nav {
+    .nav-wrapper {
+      width: 80%;
+    }
+  }
   @keyframes ship {
     0% {
       right: -10%;
@@ -1053,7 +1061,7 @@ nav:hover {
   }
   nav {
     .nav-wrapper {
-      width: 98%;
+      width: 100%;
       transition: 1s ease;
       .web-v {
         display: none;
@@ -1062,12 +1070,12 @@ nav:hover {
       .logo {
         display: flex;
         align-items: center;
+        width: 12em;
         height: 6.5em;
-        width: 18em;
         transition: all 0.3s ease-in-out;
         img {
           margin-left: 20px;
-          width: 14em;
+          width: 10em;
           height: 6.5em;
           object-fit: contain;
           user-select: none;
@@ -1110,7 +1118,10 @@ nav:hover {
       width: 100%;
       transition: 1s ease;
       .logo {
-        width: 30px;
+        width: 20px;
+        img {
+          width: 140px;
+        }
       }
       .nav-menu {
         .nav-buttons {
@@ -1223,7 +1234,8 @@ nav:hover {
     display: flex;
     justify-content: center;
   }
-  nav {
+  #navbar {
+    display: none;
     .nav-wrapper {
       width: 100%;
       transition: 1s ease;
@@ -1257,6 +1269,108 @@ nav:hover {
       }
     }
   }
+
+  #menuToggle {
+    height: 100%;
+    width: 90%;
+    display: block;
+    position: relative;
+    top: 50px;
+    // left: -250px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
+    a {
+      text-decoration: none;
+      color: #ffffff;
+      padding: 30px;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: rgb(255, 56, 21);
+    }
+
+    input {
+      display: block;
+      width: 40px;
+      height: 32px;
+      position: absolute;
+      top: -7px;
+      left: -5px;
+
+      cursor: pointer;
+
+      opacity: 0; /* hide this */
+      z-index: 2; /* and place it over the hamburger */
+
+      -webkit-touch-callout: none;
+    }
+    span {
+      display: block;
+      width: 33px;
+      height: 4px;
+      margin-bottom: 5px;
+      position: relative;
+
+      background: #ffffff;
+      border-radius: 3px;
+
+      z-index: 1;
+
+      transform-origin: 4px 0px;
+
+      transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+    }
+    span:first-child {
+      transform-origin: 0% 0%;
+    }
+
+    span:nth-last-child(2) {
+      transform-origin: 0% 100%;
+    }
+    input:checked ~ span {
+      opacity: 1;
+      transform: rotate(45deg) translate(-2px, -1px);
+      background: #ffffff;
+    }
+    input:checked ~ span:nth-last-child(3) {
+      opacity: 0;
+      transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    input:checked ~ span:nth-last-child(2) {
+      transform: rotate(-45deg) translate(0, -1px);
+    }
+    input:checked ~ ul {
+      transform: none;
+    }
+  }
+  #menu {
+    position: absolute;
+    height: 1200px;
+    width: 280px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: #000000;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    li {
+      padding: 10px;
+      font-size: 18px;
+    }
+  }
+
   .hero-section {
     width: 100%;
     height: 100vh;
@@ -1382,55 +1496,39 @@ nav:hover {
     margin-top: -130px;
     height: 210px;
   }
+  #menu {
+    position: absolute;
+    height: 1200px;
+    width: 250px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: #000000;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    li {
+      padding: 10px;
+      font-size: 19px;
+    }
+  }
   .content {
     width: 100%;
     display: flex;
     justify-content: center;
-  }
-  nav {
-    height: 80px;
-    // display: none;
-    .nav-wrapper {
-      margin-right: -50px;
-      width: 100%;
-      transition: 1s ease;
-      .nav-menu {
-        .nav-buttons {
-          .mobile {
-            position: fixed;
-            top: 80%;
-            right: 77%;
-            width: 200px;
-            height: 150px;
-          }
-          a {
-            .hide2 {
-              display: none;
-            }
-            .earth {
-              width: 60px;
-              height: 60px;
-              transition: 1s ease;
-            }
-          }
-        }
-      }
-      .nav-menu {
-        width: 100%;
-      }
-      img {
-        display: none;
-      }
-      .drop {
-        display: none;
-      }
-    }
   }
   .hero-section {
     width: 100%;
     height: 100vh;
     .hero-wrapper {
       width: 100%;
+      justify-content: center;
       .hero-title {
         top: 58%;
         h1 {
@@ -1438,10 +1536,9 @@ nav:hover {
         }
       }
       .hero-buttons {
-        width: 70%;
+        width: 90%;
         height: 200px;
         position: fixed;
-        left: 25%;
         top: 87%;
         z-index: 2;
         display: flex;
@@ -1527,6 +1624,14 @@ nav:hover {
         display: flex;
         justify-content: space-between;
         width: 100%;
+        a {
+          margin-right: 10px;
+          button {
+            width: 100%;
+            height: 45px;
+            font-size: 10px;
+          }
+        }
         .btn-wrapper {
           margin-top: -150px;
           button {
@@ -1591,38 +1696,33 @@ nav:hover {
     display: flex;
     justify-content: center;
   }
-  nav {
-    .nav-wrapper {
-      margin-right: 0px;
-      width: 100%;
-      transition: 1s ease;
-      .nav-menu {
-        .nav-buttons {
-          .mobile {
-            position: fixed;
-            top: 83%;
-            right: 74%;
-            width: 200px;
-            height: 100px;
-          }
-          a {
-            .hide2 {
-              display: none;
-            }
-            .earth {
-              width: 45px;
-              height: 45px;
-              transition: 1s ease;
-            }
-          }
-        }
-      }
+  #menu {
+    position: absolute;
+    height: 1200px;
+    width: 250px;
+    margin: -100px 0 0 -50px;
+    padding: 50px;
+    padding-top: 90px;
+
+    background: #000000;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    li {
+      padding: 5px;
+      font-size: 14px;
     }
   }
   .hero-section {
     width: 100%;
     height: 100vh;
     .hero-wrapper {
+      justify-content: center;
       width: 100%;
       .hero-title {
         top: 58%;
@@ -1631,14 +1731,14 @@ nav:hover {
         }
       }
       .hero-buttons {
-        width: 70%;
+        width: 90%;
         height: 200px;
         position: fixed;
         top: 87%;
         z-index: 2;
         a {
           button {
-            width: 105px;
+            width: 100%;
             height: 45px;
             font-size: 10px;
           }

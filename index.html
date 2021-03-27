@@ -21,6 +21,9 @@
             <li><a href="#about">about</a></li>
             <li><a href="#roadmap">roadmap</a></li>
             <li>
+              <a href="safemarswhitepaper.pdf" target="_blank">White Paper</a>
+            </li>
+            <li>
               <a class="drop" href="#">contact<i class="arrow down"></i></a>
               <ul class="dropdown">
                 <li>
@@ -39,11 +42,17 @@
                   >
                 </li>
                 <li>
+                  <a
+                    target="”_blank”"
+                    href="https://www.instagram.com/safe.martians/"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
                   <a target="”_blank”" href="https://discord.gg/Rn8ah2tkrv"
                     >Discord</a
                   >
                 </li>
-                <!-- <li><a target="”_blank”" href="">Instagram</a></li> -->
               </ul>
             </li>
             <li class="nav-buttons">
@@ -63,6 +72,34 @@
                 <button class="earth"></button>
               </a>
             </li>
+          </ul>
+        </div>
+      </nav>
+      <nav role="m-nav">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="#"><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#roadmap"><li>Roadmap</li></a>
+            <a href="safemarswhitepaper.pdf" target="_blank"
+              ><li>Whitepaper</li></a
+            >
+            <a href="https://t.me/safemars" target="_blank"
+              ><li>Telegram</li></a
+            >
+            <a href="https://t.me/safemars" target="_blank"><li>Twitter</li></a>
+            <a href="https://t.me/safemars" target="_blank"><li>Reddit</li></a>
+            <a href="https://t.me/safemars" target="_blank"
+              ><li>Instagram</li></a
+            >
+            <a href="https://t.me/safemars" target="_blank"><li>Discord</li></a>
+            <a href="https://t.me/safemars" target="_blank"
+              ><li>Land on Earth</li></a
+            >
           </ul>
         </div>
       </nav>
@@ -339,6 +376,14 @@
           document.getElementById("navbar").style.background = "#00000090";
         } else {
           document.getElementById("navbar").style.background = "#00000000";
+        }
+      }
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
         }
       }
     </script>
