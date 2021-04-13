@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Safe Mars 🌌</title>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/api.js"></script>
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="img/fav/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="img/fav/favicon.ico" type="image/x-icon" />
@@ -21,7 +29,26 @@
             <li><a href="#about">about</a></li>
             <li><a href="#roadmap">roadmap</a></li>
             <li>
-              <a href="safemarswhitepaper.pdf" target="_blank">White Paper</a>
+              <a class="drop" href="#"
+                >White Papers<i class="arrow down"></i
+              ></a>
+              <ul class="dropdown">
+                <li>
+                  <a target="”_blank”" href="pdf/en-safemars-whitepaper.pdf">
+                    EN - White Paper</a
+                  >
+                </li>
+                <li>
+                  <a target="”_blank”" href="pdf/es-safemars-whitepaper.pdf"
+                    >ES - White Paper</a
+                  >
+                </li>
+                <li>
+                  <a target="”_blank”" href="pdf/de-safemars-whitepaper.pdf"
+                    >DE - White Paper</a
+                  >
+                </li>
+              </ul>
             </li>
             <li>
               <a class="drop" href="#">contact<i class="arrow down"></i></a>
@@ -85,19 +112,25 @@
             <a href="#"><li>Home</li></a>
             <a href="#about"><li>About</li></a>
             <a href="#roadmap"><li>Roadmap</li></a>
-            <a href="safemarswhitepaper.pdf" target="_blank"
+            <a href="/pdf/en-safemars-whitepaper.pdf" target="_blank"
               ><li>Whitepaper</li></a
             >
             <a href="https://t.me/safemars" target="_blank"
               ><li>Telegram</li></a
             >
-            <a href="https://t.me/safemars" target="_blank"><li>Twitter</li></a>
-            <a href="https://t.me/safemars" target="_blank"><li>Reddit</li></a>
-            <a href="https://t.me/safemars" target="_blank"
+            <a href="https://twitter.com/Safemartians" target="_blank"
+              ><li>Twitter</li></a
+            >
+            <a href="https://www.reddit.com/r/Safemars/" target="_blank"
+              ><li>Reddit</li></a
+            >
+            <a href="https://www.instagram.com/safe.martians/" target="_blank"
               ><li>Instagram</li></a
             >
-            <a href="https://t.me/safemars" target="_blank"><li>Discord</li></a>
-            <a href="https://t.me/safemars" target="_blank"
+            <a href="https://discord.gg/Rn8ah2tkrv" target="_blank"
+              ><li>Discord</li></a
+            >
+            <a href="https://safeearthcrypto.com/" target="_blank"
               ><li>Land on Earth</li></a
             >
           </ul>
@@ -129,12 +162,6 @@
             take off with us
           </h1>
           <br />
-          <!-- <p class="shadow">
-            and
-          </p>
-          <p>
-            and
-          </p> -->
         </div>
         <div class="hero-buttons">
           <a
@@ -156,6 +183,61 @@
             the protocol automatically distributes rewards to holders as well as
             auto-locks liquidity forever.
           </p>
+        </div>
+      </div>
+    </section>
+    <section class="chart section">
+      <h1>Stats</h1>
+      <div class="live">
+        <div class="part">
+          <a
+            target="_blank"
+            href="https://dex.guru/token/0x3ad9594151886ce8538c1ff615efa2385a8c3a88"
+          >
+            <button>Live Chart</button>
+          </a>
+        </div>
+        <div class="part">
+          <h3 class="cur value"></h3>
+          <p>current value</p>
+        </div>
+        <div class="part">
+          <h3 class="cur volume"></h3>
+          <p>24H volume</p>
+        </div>
+        <div class="part">
+          <h3 class="1hc"></h3>
+          <p>1h change</p>
+        </div>
+        <div class="part">
+          <h3 class="24hc"></h3>
+          <p>24 change</p>
+        </div>
+        <div class="part">
+          <h3 class="7dc"></h3>
+          <p>14d change</p>
+        </div>
+      </div>
+      <div class="records">
+        <div class="part">
+          <img src="/img/helmet.svg" alt="" />
+          <h3 class="hodlers"></h3>
+          <p>Current Hodlers</p>
+        </div>
+        <div class="part">
+          <img src="/img/dollar.svg" alt="" />
+          <h3 class="liquid"></h3>
+          <p>Total Liquidity</p>
+        </div>
+        <div class="part">
+          <img src="/img/chart.svg" alt="" />
+          <h3 class="marketcap"></h3>
+          <p>Market Cap</p>
+        </div>
+        <div class="part">
+          <img src="/img/flame.svg" alt="" />
+          <h3 class="burned"></h3>
+          <p>Safemars Burned</p>
         </div>
       </div>
     </section>
@@ -183,7 +265,7 @@
           <br />
           <h3>Forever Deflationary supply/burn</h3>
           <p>
-            we burned more than 50% of the total supply after launch and sent it
+            We burned more than 50% of the total supply after launch and sent it
             to a black hole address; as this address also participates in the
             protocol, it accumulates more tokens, thereby effectively removing
             them from circulation. There is no limit to the burn, the black hole
@@ -236,6 +318,38 @@
           </div>
         </div>
       </div>
+      <div class="links">
+        <div class="part">
+          <p>listed on</p>
+          <a target="_blank" href="https://www.coingecko.com/en/coins/safemars">
+            <img src="/img/links/coingeckologo.svg" alt="" />
+          </a>
+        </div>
+        <div class="part">
+          <p>listed on</p>
+          <a
+            target="_blank"
+            href="https://coinmarketcap.com/currencies/safemars/"
+          >
+            <img src="/img/links/cmc-logo.svg" alt="" />
+          </a>
+        </div>
+        <div class="part">
+          <p>certified by</p>
+          <a target="_blank" href="https://www.certik.org/projects/safemars">
+            <img src="/img/links/certik-logotype-h-w.svg" alt="" />
+          </a>
+        </div>
+        <div class="part">
+          <p>buy on</p>
+          <a
+            target="_blank"
+            href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x3ad9594151886ce8538c1ff615efa2385a8c3a88"
+          >
+            <img src="/img/links/pancakelogo.svg" alt="" />
+          </a>
+        </div>
+      </div>
     </section>
     <section class="roadmap section" id="roadmap">
       <h1>Road Map</h1>
@@ -286,37 +400,37 @@
                     Website redesign
                   </div>
                 </li>
-                <li class="rb-item inpr" ng-repeat="itembx">
+                <li class="rb-item done" ng-repeat="itembx">
                   <div class="timestamp">
                     Q1 2021<br />
-                    In progress
+                    Done
                   </div>
                   <div class="item-title">
                     Listing on Coingecko, Coinmarketcap
                   </div>
                 </li>
-                <li class="rb-item inpr" ng-repeat="itembx">
+                <li class="rb-item done" ng-repeat="itembx">
                   <div class="timestamp">
                     Q1 2021<br />
-                    In progress
+                    Done
                   </div>
                   <div class="item-title">
                     Smart contract audit
                   </div>
                 </li>
-                <li class="rb-item soon" ng-repeat="itembx">
+                <li class="rb-item inpr" ng-repeat="itembx">
                   <div class="timestamp">
                     Q2 2021<br />
-                    Coming soon
+                    In progress
                   </div>
                   <div class="item-title">
                     Marketing push
                   </div>
                 </li>
-                <li class="rb-item soon" ng-repeat="itembx">
+                <li class="rb-item inpr" ng-repeat="itembx">
                   <div class="timestamp">
                     Q2 2021<br />
-                    Coming soon
+                    In progress
                   </div>
                   <div class="item-title">
                     Further partnerships
@@ -364,6 +478,9 @@
         </div>
       </div>
     </section>
+    <footer>
+      <p>&copy;2021 by <a href="index.html">Safemars</a></p>
+    </footer>
     <script>
       window.onscroll = function () {
         scrollFunction();
@@ -387,8 +504,5 @@
         }
       }
     </script>
-    <footer>
-      <p>&copy;2021 by <a href="index.html">Safemars</a></p>
-    </footer>
   </body>
 </html>
