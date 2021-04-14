@@ -354,7 +354,7 @@ button {
           align-items: center;
   padding-left: 30px;
   position: absolute;
-  z-index: -1;
+  z-index: 1;
 }
 
 #navbar .nav-wrapper .nav-menu .nav-buttons a button {
@@ -2235,11 +2235,10 @@ button {
   }
   #menuToggle {
     height: 100%;
-    width: 20%;
+    width: 20px;
     display: block;
     position: fixed;
     top: 50px;
-    z-index: 1;
     -webkit-user-select: none;
     -moz-user-select: none;
      -ms-user-select: none;
@@ -2342,7 +2341,6 @@ button {
   .hero-section {
     width: 100%;
     height: 100vh;
-    /* z-index: -3; */
   }
   .hero-section .hero-wrapper {
     width: 100%;
