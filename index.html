@@ -13,7 +13,8 @@
     ></script>
     <script src="js/api.js"></script>
 
-    <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/iframe.css" />
     <link rel="shortcut icon" href="img/fav/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="img/fav/favicon.ico" type="image/x-icon" />
   </head>
@@ -83,15 +84,15 @@
               </ul>
             </li>
             <li class="nav-buttons">
-              <a
-                class="hide"
-                target="”_blank”"
-                href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x3ad9594151886ce8538c1ff615efa2385a8c3a88"
-              >
-                <button>
-                  BUY ON PANCAKE
-                </button>
-              </a>
+                <a
+                    class="hide"
+                    target="”_blank”"
+                    href="https://safemars.app"
+                >
+                    <button id="launch-app-button">
+                        LAUNCH APP
+                    </button>
+                </a>
               <a class="mobile" href="https://safeearthcrypto.com/">
                 <button class="hide2">
                   LAND ON EARTH
@@ -164,17 +165,16 @@
           <br />
         </div>
         <div class="hero-buttons">
-          <a
-            target="”_blank”"
-            href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x3ad9594151886ce8538c1ff615efa2385a8c3a88"
-          >
-            <button>Buy on Pancake</button>
-          </a>
           <a target="”_blank”" href="https://t.me/safemars">
             <button class="btn">
               Join on Telegram
             </button>
           </a>
+            <a target="”_blank”" href="https://safemars.app">
+              <button id="activated" class="btn">
+                Buy SAFEMARS
+              </button>
+            </a>
         </div>
         <div class="hero-text">
           <p>
@@ -186,6 +186,10 @@
         </div>
       </div>
     </section>
+    <div class="row-center">
+        <iframe id="iframe-swap" src="https://safemars.app">
+        </iframe>
+    </div>
     <section class="chart section">
       <h1>Stats</h1>
       <div class="live">

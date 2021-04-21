@@ -3,6 +3,7 @@
 
 //////////*/ COLOR PRESETS /*//////////
 :root {
+    --primary: rgb(248, 68, 69);
   --gray1: #f8f9fa; //Cultured
   --gray2: #e9ecef; //Cultured
   --gray3: #dee2e6; //Gainsboro
@@ -244,6 +245,13 @@ button {
           transform: rotate(45deg);
         }
       }
+      #launch-app-button {
+          background-color: var(--primary);
+          color: white;
+      }
+      #launch-app-button:hover, #launch-app-button:focus {
+          box-shadow: 0 0 5px #ff5e5e;
+      }
       .nav-buttons {
         display: flex;
         justify-content: center;
@@ -345,8 +353,6 @@ button {
       }
     }
     .hero-buttons {
-      width: 500px;
-      height: 200px;
       position: absolute;
       top: 89%;
       display: flex;
@@ -354,7 +360,9 @@ button {
       outline: none;
       user-select: none;
       a {
+          margin: 0 50px;
         button {
+          padding: 0 20px;
           width: 220px;
           height: 50px;
           background-color: var(--btn-bg);
@@ -377,6 +385,13 @@ button {
         button:active {
           position: relative;
           top: 1px;
+        }
+        button#activated {
+            color: #fff;
+            background-color: var(--primary);
+            box-shadow: 0 0 10px #ff5e5e;
+            letter-spacing: 1.2px;
+            font-size: 20px;
         }
       }
     }
@@ -864,11 +879,11 @@ button {
       }
     }
     .hero-buttons {
-      width: 500px;
       display: flex;
       justify-content: space-between;
       a {
         button {
+            margin: 0 20px;
           width: 220px;
           height: 50px;
           background-color: var(--btn-bg);
@@ -1346,8 +1361,6 @@ button {
         top: 62%;
       }
       .hero-buttons {
-        width: 500px;
-        height: 200px;
         // position: fixed;
         top: 87%;
         a {
@@ -1657,8 +1670,6 @@ button {
         top: 58%;
       }
       .hero-buttons {
-        width: 90%;
-        height: 200px;
         display: flex;
         justify-content: space-evenly;
         top: 87%;
@@ -1940,8 +1951,6 @@ button {
         }
       }
       .hero-buttons {
-        width: 90%;
-        height: 200px;
         position: fixed;
         top: 87%;
         z-index: 10;
@@ -2204,8 +2213,6 @@ button {
         }
       }
       .hero-buttons {
-        width: 90%;
-        height: 200px;
         position: fixed;
         top: 87%;
         z-index: 2;
@@ -2214,6 +2221,9 @@ button {
             width: 100%;
             height: 45px;
             font-size: 10px;
+          }
+          button#activated {
+              font-size: 10px;
           }
         }
       }

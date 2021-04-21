@@ -1,0 +1,22 @@
+
+
+#iframe-swap {
+    width:80%;
+    height:80vh;
+    max-height:820px;
+    margin:0 auto 50px;
+    border:0;
+    box-shadow:0 0 10px 10px rgba(16,22,28,.3)
+}
+
+.row-center {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around
+}
+
+@media(max-width:1000px) {
+    #iframe-swap {
+        display: none;
+    }
+}
