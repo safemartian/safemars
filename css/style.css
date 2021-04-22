@@ -1471,7 +1471,6 @@ button {
     display: block;
     position: fixed;
     top: 50px;
-    z-index: 1;
     -webkit-user-select: none;
     user-select: none;
   }
@@ -1558,7 +1557,6 @@ button {
   .hero-section {
     width: 100%;
     height: 100vh;
-    z-index: -3;
   }
   .hero-section .hero-wrapper {
     width: 100%;
@@ -2108,7 +2106,6 @@ button {
   .hero-section .hero-wrapper .hero-buttons {
     position: fixed;
     top: 87%;
-    z-index: 2;
   }
   .hero-section .hero-wrapper .hero-buttons a button {
     width: 100%;
