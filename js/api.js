@@ -129,4 +129,4 @@ setTimeout(() => {
       modal.style.display = "none";
     }
   }
-}, 3000);
+}, 1000);

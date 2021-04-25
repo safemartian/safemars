@@ -3,7 +3,7 @@
 
 //////////*/ COLOR PRESETS /*//////////
 :root {
-    --primary: rgb(248, 68, 69);
+  --primary: rgb(248, 68, 69);
   --gray1: #f8f9fa; //Cultured
   --gray2: #e9ecef; //Cultured
   --gray3: #dee2e6; //Gainsboro
@@ -59,6 +59,7 @@ $curve2: cubic-bezier(0.645, 0.045, 0.355, 1);
 html {
   scroll-behavior: smooth;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -67,22 +68,25 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
+
 body {
   width: 100%;
   height: auto;
   background-color: var(--gray10);
   background-image: radial-gradient(
-    circle,
-    #000f57,
-    #220c46,
-    #290e37,
-    #29122a,
-    #241721
+                  circle,
+                  #000f57,
+                  #220c46,
+                  #290e37,
+                  #29122a,
+                  #241721
   );
 }
+
 .section {
   min-height: 200px;
 }
+
 .shadow {
   font-size: 50px;
   opacity: 0.07;
@@ -90,30 +94,36 @@ body {
   margin-top: -20px;
   user-select: none;
 }
+
 .content {
   width: 60%;
   display: flex;
   justify-content: space-between;
   transition: 1s ease;
 }
+
 footer {
   height: 100px;
   background: var(--black);
   display: flex;
   justify-content: center;
   align-items: center;
+
   p {
     color: var(--fonts);
   }
+
   a {
     color: var(--fonts);
     text-decoration: none;
     transition: 0.2s ease;
   }
+
   a:hover {
     color: var(--fonts-hover);
   }
 }
+
 #menuToggle {
   display: none;
   z-index: 888;
@@ -133,12 +143,14 @@ button {
   transition: background 0.5s ease-in-out;
   user-select: none;
   z-index: 999;
+
   .nav-wrapper {
     display: flex;
     justify-content: space-between;
     width: 75%;
     background: var(--nav-bg);
     transition: 1s ease;
+
     .web-v {
       color: var(--light-red);
       font-size: 14px;
@@ -146,12 +158,14 @@ button {
       margin-right: -95px;
       transition: 1s ease;
     }
+
     .logo {
       display: flex;
       align-items: center;
       height: 6.5em;
       width: 18em;
       transition: all 0.3s ease-in-out;
+
       img {
         width: 18em;
         height: 6.5em;
@@ -162,8 +176,10 @@ button {
         mix-blend-mode: normal;
       }
     }
+
     .logo:hover {
       width: 18.5em;
+
       img {
         width: 18.5em;
         transition: 0.3s ease-in-out;
@@ -171,16 +187,19 @@ button {
         filter: hue-rotate(99999deg);
       }
     }
+
     .nav-menu {
       list-style-type: none;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
       flex-direction: row;
+
       li {
         display: block;
         justify-content: center;
         align-items: center;
+
         a {
           width: 100%;
           height: 100%;
@@ -190,6 +209,7 @@ button {
           padding: 20px 17px 20px 17px;
           text-align: center;
           transition: 0.3s ease-in-out;
+
           .arrow {
             margin-left: 7px;
             margin-bottom: 2px;
@@ -201,6 +221,7 @@ button {
             transition: all 0.2s ease-in-out;
           }
         }
+
         a:hover {
           color: var(--nav-color-hover);
           border-radius: 190px;
@@ -214,49 +235,60 @@ button {
           transition: all 0.2 ease-in-out;
           margin-top: 10px;
           display: none;
+
           li {
             padding: 10px 20px 10px 0px;
           }
         }
       }
+
       li:hover {
         cursor: pointer;
+
         .drop {
           color: var(--nav-color-hover);
         }
+
         .arrow {
           border: solid var(--nav-color-hover);
           border-width: 0 3px 3px 0;
           transform: rotate(45deg);
         }
       }
+
       li:hover > ul,
       li ul:hover {
         visibility: visible;
         opacity: 1;
         display: block;
         background: #00000050;
+
         .drop {
           color: var(--nav-color-hover);
         }
+
         .arrow {
           border: solid var(--nav-color-hover);
           border-width: 0 3px 3px 0;
           transform: rotate(45deg);
         }
       }
+
       #launch-app-button {
-          background-color: var(--primary);
-          color: white;
+        background-color: var(--primary);
+        color: white;
       }
+
       #launch-app-button:hover, #launch-app-button:focus {
-          box-shadow: 0 0 5px #ff5e5e;
+        box-shadow: 0 0 5px #ff5e5e;
       }
+
       .nav-buttons {
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
+
         a {
           display: flex;
           justify-content: center;
@@ -277,6 +309,7 @@ button {
             position: absolute;
             z-index: -1;
           }
+
           button {
             width: 130px;
             height: 35px;
@@ -292,21 +325,25 @@ button {
             text-transform: uppercase;
             transition: 0.2s ease-in-out;
           }
+
           button:hover {
             background-color: var(--btn-bg-hover);
             color: var(--btn-color-hover);
             transition: 0.2s ease-in-out;
           }
+
           button:active {
             position: relative;
             top: 1px;
           }
         }
       }
+
       a:hover {
         img {
           height: 130px;
         }
+
         .earth {
           color: green;
           background-size: 250%;
@@ -316,6 +353,7 @@ button {
     }
   }
 }
+
 #navbar:hover {
   background: var(--nav-hover);
   transition: 0.5s ease-in-out;
@@ -329,10 +367,12 @@ button {
   overflow: hidden;
   display: flex;
   justify-content: center;
+
   .hero-wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
+
     .hero-title {
       width: 500px;
       display: flex;
@@ -341,6 +381,7 @@ button {
       position: absolute;
       top: 66%;
       user-select: none;
+
       h1 {
         color: var(--fonts);
         font-size: 45px;
@@ -348,10 +389,12 @@ button {
         font-weight: 900;
         font-style: italic;
       }
+
       p {
         color: var(--fonts);
       }
     }
+
     .hero-buttons {
       position: absolute;
       top: 89%;
@@ -359,8 +402,10 @@ button {
       justify-content: space-between;
       outline: none;
       user-select: none;
+
       a {
-          margin: 0 50px;
+        margin: 0 50px;
+
         button {
           padding: 0 20px;
           width: 220px;
@@ -377,24 +422,28 @@ button {
           text-transform: uppercase;
           transition: 0.2s ease-in-out;
         }
+
         button:hover {
           background-color: var(--btn-bg-hover);
           color: var(--btn-color-hover);
           transition: 0.2s ease-in-out;
         }
+
         button:active {
           position: relative;
           top: 1px;
         }
+
         button#activated {
-            color: #fff;
-            background-color: var(--primary);
-            box-shadow: 0 0 10px #ff5e5e;
-            letter-spacing: 1.2px;
-            font-size: 20px;
+          color: #fff;
+          background-color: var(--primary);
+          box-shadow: 0 0 10px #ff5e5e;
+          letter-spacing: 1.2px;
+          font-size: 20px;
         }
       }
     }
+
     .hero-text {
       width: 40%;
       position: absolute;
@@ -404,6 +453,7 @@ button {
       opacity: 0.7;
     }
   }
+
   .mars {
     position: absolute;
     top: 43%;
@@ -441,6 +491,7 @@ button {
         width: 2px;
         background: #eee;
       }
+
       &:after {
         content: "";
         position: absolute;
@@ -453,6 +504,7 @@ button {
         background-repeat: no-repeat;
         animation: flag-unfurl $timing $curve2 infinite;
       }
+
       .small-tentacle {
         position: absolute;
         left: -40px;
@@ -493,6 +545,7 @@ button {
       }
     }
   }
+
   .ship {
     position: absolute;
     right: 50%;
@@ -508,6 +561,7 @@ button {
       transform: rotate(-110deg);
       animation: ship-rotate $timing $curve2 infinite;
     }
+
     .pod {
       position: absolute;
       top: 0;
@@ -518,6 +572,7 @@ button {
       border-radius: 100% 0 100% 0;
       transform: rotate(-45deg);
     }
+
     .fuselage {
       position: absolute;
       top: 24px;
@@ -682,18 +737,21 @@ button {
     font-weight: 700;
     user-select: none;
   }
+
   .live {
     width: 57%;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     .part {
       height: 40px;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+
       a {
         button {
           user-select: none;
@@ -708,45 +766,56 @@ button {
           text-transform: uppercase;
           transition: 0.3s ease;
         }
+
         button:hover {
           background: rgb(255, 32, 32);
           color: white;
           transition: 0.3s ease;
         }
       }
+
       .cur::before {
         content: "$";
         margin-right: 4px;
       }
+
       .po {
         color: rgb(0, 190, 0);
       }
+
       .po::before {
         content: "+";
         margin-right: 4px;
       }
+
       .po::after {
         content: "%";
         margin-left: 4px;
       }
+
       .ne {
         color: red;
       }
+
       .ne::before {
         content: "-";
         margin-right: 4px;
       }
+
       .ne::after {
         content: "%";
         margin-left: 4px;
       }
+
       h3 {
         font-size: 19px;
       }
+
       .mo:before {
         content: "$";
         margin-right: 4px;
       }
+
       p {
         text-transform: uppercase;
         margin-top: 5px;
@@ -758,6 +827,7 @@ button {
       }
     }
   }
+
   .records {
     margin-top: 20px;
     width: 50%;
@@ -766,21 +836,25 @@ button {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+
     .part {
       height: 140px;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+
       img {
         user-select: none;
         pointer-events: none;
         height: 60px;
         margin-bottom: 20px;
       }
+
       h3 {
         font-size: 32px;
       }
+
       p {
         text-transform: uppercase;
         margin-top: 5px;
@@ -790,10 +864,12 @@ button {
         user-select: none;
         pointer-events: none;
       }
+
       .marketcap::before {
         content: "$";
         margin-right: 4px;
       }
+
       .liquid::before {
         content: "$";
         margin-right: 4px;
@@ -812,6 +888,7 @@ button {
   padding-top: 150px;
   color: var(--fonts);
   overflow: hidden;
+
   h1 {
     font-size: 45px;
     text-transform: uppercase;
@@ -822,15 +899,18 @@ button {
     font-weight: 700;
     user-select: none;
   }
+
   .about-text {
     width: 43%;
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+
     h2 {
       font-size: 30px;
       font-weight: 800;
     }
+
     p {
       margin-top: 13px;
       font-size: 18px;
@@ -839,9 +919,11 @@ button {
       color: rgba(255, 255, 255, 0.6);
     }
   }
+
   .about-img {
     width: 43%;
     height: 50%;
+
     img {
       margin-top: -80px;
       margin-left: 80px;
@@ -853,6 +935,7 @@ button {
       z-index: -2;
     }
   }
+
   .about-bottom {
     padding-top: 25px;
     width: 100%;
@@ -862,12 +945,15 @@ button {
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
+
     .bottom-text {
       display: flex;
       justify-content: space-between;
       width: 100%;
+
       div {
         width: 100%;
+
         p {
           width: 90%;
           margin-top: 13px;
@@ -878,12 +964,14 @@ button {
         }
       }
     }
+
     .hero-buttons {
       display: flex;
       justify-content: space-between;
+
       a {
         button {
-            margin: 0 20px;
+          margin: 0 20px;
           width: 220px;
           height: 50px;
           background-color: var(--btn-bg);
@@ -899,11 +987,13 @@ button {
           user-select: none;
           transition: 0.2s ease-in-out;
         }
+
         button:hover {
           background-color: var(--btn-bg-hover);
           color: var(--btn-color-hover);
           transition: 0.2s ease-in-out;
         }
+
         button:active {
           position: relative;
           top: 1px;
@@ -911,6 +1001,7 @@ button {
       }
     }
   }
+
   h3 {
     font-size: 23px;
     margin-bottom: 10px;
@@ -925,6 +1016,7 @@ button {
   min-height: 150px;
   flex-wrap: wrap;
   transition: 1s ease;
+
   .part {
     width: 200px;
     display: flex;
@@ -932,15 +1024,18 @@ button {
     align-items: center;
     flex-direction: column;
     margin-top: 25px;
+
     a {
       width: 200px;
       height: 50px;
       transition: 0.1s ease;
     }
+
     a:hover {
       transition: 0.1s ease;
       transform: scale(1.05);
     }
+
     p {
       margin-top: 15px;
       font-size: 13px;
@@ -991,6 +1086,7 @@ button {
   padding-bottom: 200px;
   color: var(--fonts);
   overflow: hidden;
+
   h1 {
     font-size: 45px;
     text-transform: uppercase;
@@ -1001,11 +1097,13 @@ button {
     font-weight: 700;
     user-select: none;
   }
+
   .roadmap-img {
     width: 33%;
     height: 50%;
     margin-left: -130px;
     margin-top: 30px;
+
     img {
       height: 70%;
       width: 160%;
@@ -1014,11 +1112,13 @@ button {
       pointer-events: none;
     }
   }
+
   .container {
     margin-top: 130px;
     width: 43%;
     height: 500px;
     position: relative;
+
     .leftbox {
       top: -5%;
       left: 5%;
@@ -1028,10 +1128,12 @@ button {
       background-color: var(--rm-bg);
       box-shadow: 3px 3px 15px rgba(119, 119, 119, 0.5);
     }
+
     .rightbox {
       padding: 0em 34rem 0em 0em;
       height: 100%;
     }
+
     .rb-container {
       font-family: "PT Sans", sans-serif;
       height: 100%;
@@ -1039,6 +1141,7 @@ button {
       margin: auto;
       display: block;
       position: relative;
+
       .rb {
         display: flex;
         justify-content: space-between;
@@ -1048,6 +1151,7 @@ button {
         width: 450px;
         padding: 10px 0px 0px 0px;
         display: inline-block;
+
         .btn {
           position: absolute;
           margin-left: -15px;
@@ -1058,24 +1162,29 @@ button {
           user-select: none;
           font-size: 20px;
         }
+
         .up {
           top: 16%;
           transform: rotate(-90deg);
         }
+
         .down {
           top: 84%;
           transform: rotate(90deg);
         }
+
         .up2 {
           top: 16%;
           margin-left: 500px;
           transform: rotate(-90deg);
         }
+
         .down2 {
           top: 84%;
           margin-left: 500px;
           transform: rotate(90deg);
         }
+
         li {
           min-height: 100px;
           list-style: none;
@@ -1107,6 +1216,7 @@ button {
           transition: all 1000ms ease-in-out;
         }
       }
+
       .rb::-webkit-scrollbar {
         display: none;
       }
@@ -1116,10 +1226,12 @@ button {
       position: relative;
       width: 100px;
       font-size: 12px;
+      text-align: left;
     }
 
     .item-title {
       color: rgba(255, 255, 255, 0.6);
+      text-align: left;
     }
 
     .container-3 {
@@ -1133,24 +1245,31 @@ button {
       padding: 5em 5em 1em 1em;
       color: #50d890;
     }
+
     .soon {
       color: var(--rm-bg);
+
       .timestamp {
         color: var(--rm-bg);
       }
     }
+
     .soon::before {
       background: var(--rm-bg);
     }
+
     .inpr {
       color: #ffa600;
     }
+
     .inpr::before {
       background: #ffa600;
     }
+
     .done {
       color: #50d890;
     }
+
     .done::before {
       background: #50d890;
     }
@@ -1184,6 +1303,7 @@ button {
     margin-left: 40px;
   }
 }
+
 @media (max-width: 2300px) {
   @keyframes ship {
     0% {
@@ -1257,16 +1377,19 @@ button {
     .nav-wrapper {
       width: 100%;
       transition: 1s ease;
+
       .web-v {
         display: none;
         transition: 1s ease;
       }
+
       .logo {
         display: flex;
         align-items: center;
         width: 12em;
         height: 6.5em;
         transition: all 0.3s ease-in-out;
+
         img {
           margin-left: 20px;
           width: 10em;
@@ -1287,11 +1410,13 @@ button {
   }
   .roadmap {
     margin-top: 140px;
+
     .roadmap-img {
       margin-left: -50px;
       width: 25%;
       // display: none;
     }
+
     .container {
       margin-top: 100px;
       width: 60%;
@@ -1303,9 +1428,11 @@ button {
 
   .chart {
     width: 100%;
+
     .live {
       width: 77%;
     }
+
     .records {
       width: 62%;
     }
@@ -1325,12 +1452,15 @@ button {
     .nav-wrapper {
       width: 100%;
       transition: 1s ease;
+
       .logo {
         width: 20px;
+
         img {
           width: 140px;
         }
       }
+
       .nav-menu {
         .nav-buttons {
           .hide {
@@ -1344,9 +1474,11 @@ button {
 
   .chart {
     width: 100%;
+
     .live {
       width: 90%;
     }
+
     .records {
       width: 80%;
     }
@@ -1355,14 +1487,18 @@ button {
   .hero-section {
     width: 100%;
     height: 100vh;
+
     .hero-wrapper {
       width: 100%;
+
       .hero-title {
         top: 62%;
       }
+
       .hero-buttons {
         // position: fixed;
         top: 87%;
+
         a {
           button {
             width: 220px;
@@ -1370,24 +1506,29 @@ button {
           }
         }
       }
+
       .hero-text {
         width: 70%;
         top: 74%;
       }
     }
+
     .mars {
       position: absolute;
       top: 43%;
       left: 56%;
       z-index: 2;
+
       .tentacle {
         top: -190px;
         right: -90px;
       }
+
       .flag {
         top: 100px;
         left: -50px;
       }
+
       .planet {
         height: 370px;
         width: 370px;
@@ -1424,17 +1565,20 @@ button {
 
   .about {
     margin-top: -90px;
+
     .about-text {
       width: 70%;
     }
   }
   .roadmap {
     margin-top: 140px;
+
     .roadmap-img {
       margin-left: -50px;
       width: 20%;
       // display: none;
     }
+
     .container {
       margin-top: 100px;
       width: 70%;
@@ -1445,6 +1589,7 @@ button {
   .links {
     width: 90%;
     justify-content: center;
+
     .part {
       width: 300px;
     }
@@ -1460,6 +1605,7 @@ button {
 
   .chart {
     height: 800px;
+
     .live {
       width: 100%;
       height: 200px;
@@ -1467,6 +1613,7 @@ button {
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
+
       .part {
         height: 40px;
         width: 200px;
@@ -1476,6 +1623,7 @@ button {
         flex-direction: column;
       }
     }
+
     .records {
       margin-top: 20px;
       width: 95%;
@@ -1486,6 +1634,7 @@ button {
 
       justify-content: space-between;
       flex-direction: row;
+
       .part {
         height: 140px;
         width: 260px;
@@ -1493,15 +1642,18 @@ button {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
         img {
           user-select: none;
           pointer-events: none;
           height: 60px;
           margin-bottom: 20px;
         }
+
         h3 {
           font-size: 32px;
         }
+
         p {
           text-transform: uppercase;
           margin-top: 5px;
@@ -1517,16 +1669,19 @@ button {
 
   #navbar {
     display: none;
+
     .nav-wrapper {
       width: 100%;
       transition: 1s ease;
     }
+
     .logo {
       display: none;
       align-items: center;
       height: 6.5em;
       width: 18em;
       transition: all 0.3s ease-in-out;
+
       img {
         display: none;
         margin-left: 20px;
@@ -1539,8 +1694,10 @@ button {
         mix-blend-mode: normal;
       }
     }
+
     .nav-menu {
       width: 100%;
+
       .nav-buttons {
         a {
           button {
@@ -1566,6 +1723,7 @@ button {
 
     -webkit-user-select: none;
     user-select: none;
+
     a {
       text-decoration: none;
       color: #ffffff;
@@ -1593,6 +1751,7 @@ button {
 
       -webkit-touch-callout: none;
     }
+
     span {
       margin-left: 30px;
       display: block;
@@ -1609,8 +1768,9 @@ button {
       transform-origin: 4px 0px;
 
       transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
     }
+
     span:first-child {
       transform-origin: 0% 0%;
     }
@@ -1618,18 +1778,22 @@ button {
     span:nth-last-child(2) {
       transform-origin: 0% 100%;
     }
+
     input:checked ~ span {
       opacity: 1;
       transform: rotate(45deg) translate(-2px, -1px);
       background: #ffffff;
     }
+
     input:checked ~ span:nth-last-child(3) {
       opacity: 0;
       transform: rotate(0deg) scale(0.2, 0.2);
     }
+
     input:checked ~ span:nth-last-child(2) {
       transform: rotate(-45deg) translate(0, -1px);
     }
+
     input:checked ~ ul {
       transform: none;
     }
@@ -1651,6 +1815,7 @@ button {
     transform: translate(-100%, 0);
 
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+
     li {
       margin-left: 30px;
       padding: 10px;
@@ -1661,15 +1826,19 @@ button {
   .hero-section {
     width: 100%;
     height: 100vh;
+
     .hero-wrapper {
       width: 100%;
+
       .hero-title {
         top: 58%;
       }
+
       .hero-buttons {
         display: flex;
         justify-content: space-evenly;
         top: 87%;
+
         a {
           button {
             width: 220px;
@@ -1677,34 +1846,42 @@ button {
           }
         }
       }
+
       .hero-text {
         width: 80%;
         top: 70%;
       }
     }
+
     .mars {
       position: absolute;
       top: 43%;
       left: 62%;
       z-index: 2;
+
       .tentacle {
         top: -190px;
         right: -90px;
       }
+
       .flag {
         top: 100px;
         left: -50px;
       }
+
       .planet {
         height: 310px;
         width: 310px;
       }
     }
+
     .roadmap {
       margin-top: 140px;
+
       .roadmap-img {
         display: none;
       }
+
       .container {
         margin-top: 100px;
         width: 70%;
@@ -1741,16 +1918,20 @@ button {
   }
   .about {
     margin-top: -120px;
+
     .about-text {
       width: 80%;
     }
+
     .about-img {
       display: none;
     }
+
     .about-bottom {
       width: 80%;
       height: 430px;
       flex-direction: column-reverse;
+
       .bottom-text {
         display: flex;
         flex-direction: column;
@@ -1762,9 +1943,11 @@ button {
   }
   .roadmap {
     margin-top: 140px;
+
     .roadmap-img {
       display: none;
     }
+
     .container {
       margin-top: 100px;
       width: 70%;
@@ -1774,6 +1957,7 @@ button {
   }
   .links {
     width: 90%;
+
     .part {
       width: 240px;
     }
@@ -1783,6 +1967,7 @@ button {
 @media (max-width: 616px) {
   .chart {
     height: 800px;
+
     .live {
       width: 100%;
       height: 200px;
@@ -1790,6 +1975,7 @@ button {
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
+
       .part {
         height: 40px;
         width: 155px;
@@ -1799,6 +1985,7 @@ button {
         flex-direction: column;
       }
     }
+
     .records {
       margin-top: 20px;
       width: 95%;
@@ -1809,6 +1996,7 @@ button {
 
       justify-content: space-between;
       flex-direction: row;
+
       .part {
         height: 140px;
         width: 245px;
@@ -1816,15 +2004,18 @@ button {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
         img {
           user-select: none;
           pointer-events: none;
           height: 40px;
           margin-bottom: 20px;
         }
+
         h3 {
           font-size: 22px;
         }
+
         p {
           text-transform: uppercase;
           margin-top: 5px;
@@ -1863,6 +2054,7 @@ button {
     transform: translate(-100%, 0);
 
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+
     li {
       padding: 10px;
       font-size: 19px;
@@ -1870,11 +2062,13 @@ button {
   }
   .chart {
     height: 1100px;
+
     h1 {
       font-size: 30px;
       margin-top: -100px;
       margin-bottom: 60px;
     }
+
     .live {
       width: 80%;
       height: 200px;
@@ -1882,6 +2076,7 @@ button {
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
+
       .part {
         height: 40px;
         width: 150px;
@@ -1892,6 +2087,7 @@ button {
         z-index: -10;
       }
     }
+
     .records {
       margin-top: 20px;
       width: 95%;
@@ -1902,6 +2098,7 @@ button {
       flex-direction: column;
       margin-bottom: 120px;
       flex-wrap: nowrap;
+
       .part {
         height: 130px;
         width: 405px;
@@ -1909,15 +2106,18 @@ button {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
         img {
           user-select: none;
           pointer-events: none;
           height: 30px;
           margin-bottom: 20px;
         }
+
         h3 {
           font-size: 25px;
         }
+
         p {
           text-transform: uppercase;
           margin-top: 5px;
@@ -1938,15 +2138,19 @@ button {
   .hero-section {
     width: 100%;
     height: 100vh;
+
     .hero-wrapper {
       width: 100%;
       justify-content: center;
+
       .hero-title {
         top: 58%;
+
         h1 {
           font-size: 30px;
         }
       }
+
       .hero-buttons {
         position: fixed;
         top: 87%;
@@ -1954,6 +2158,7 @@ button {
         display: flex;
         justify-content: space-between;
         color: white;
+
         a {
           button {
             width: 100%;
@@ -1963,25 +2168,30 @@ button {
           }
         }
       }
+
       .hero-text {
         width: 70%;
         top: 67%;
         font-size: 14px;
       }
     }
+
     .ship {
       display: none;
     }
+
     .mars {
       position: absolute;
       top: 50%;
       left: 78%;
       z-index: 2;
+
       .tentacle {
         display: none;
         top: -190px;
         right: -90px;
       }
+
       .flag {
         display: none;
       }
@@ -1991,11 +2201,14 @@ button {
         width: 250px;
       }
     }
+
     .roadmap {
       margin-top: 140px;
+
       .roadmap-img {
         display: none;
       }
+
       .container {
         margin-top: 100px;
         width: 70%;
@@ -2007,44 +2220,56 @@ button {
   .about {
     margin-top: -180px;
     text-align: center;
+
     h1 {
       font-size: 30px;
     }
+
     h3 {
       font-size: 17px;
     }
+
     .about-text {
       width: 80%;
+
       h2 {
         font-size: 20px;
       }
+
       p {
         text-align: center;
         font-size: 15px;
       }
     }
+
     .about-img {
       display: none;
     }
+
     .about-bottom {
       width: 80%;
       height: 430px;
       flex-direction: column-reverse;
+
       .hero-buttons {
         margin-top: 0px;
         display: flex;
         justify-content: space-between;
         width: 100%;
+
         a {
           margin-right: 10px;
+
           button {
             width: 100%;
             height: 45px;
             font-size: 10px;
           }
         }
+
         .btn-wrapper {
           margin-top: -150px;
+
           button {
             width: 150px;
             height: 50px;
@@ -2052,14 +2277,17 @@ button {
           }
         }
       }
+
       .bottom-text {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
         margin-top: -10px;
+
         div {
           margin-top: 10px;
+
           p {
             text-align: center;
             font-size: 15px;
@@ -2072,22 +2300,28 @@ button {
     h1 {
       font-size: 30px;
     }
+
     margin-top: 140px;
+
     .roadmap-img {
       display: none;
     }
+
     .content {
       display: flex;
       justify-content: center;
     }
+
     .container {
       margin-top: 80px;
       width: 100%;
       height: 500px;
       position: relative;
+
       .btn {
         display: none;
       }
+
       .rightbox {
         height: 100%;
       }
@@ -2096,6 +2330,7 @@ button {
   .links {
     margin-top: 0px;
     width: 90%;
+
     .part {
       width: 240px;
     }
@@ -2111,11 +2346,13 @@ button {
   }
   .chart {
     height: 800px;
+
     h1 {
       font-size: 30px;
       margin-top: -100px;
       margin-bottom: 40px;
     }
+
     .live {
       width: 85%;
       height: 300px;
@@ -2123,6 +2360,7 @@ button {
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
+
       .part {
         height: 45px;
         width: 120px;
@@ -2132,6 +2370,7 @@ button {
         flex-direction: column;
       }
     }
+
     .records {
       margin-top: 20px;
       width: 90%;
@@ -2148,15 +2387,18 @@ button {
         justify-content: flex-end;
         align-items: center;
         flex-direction: column;
+
         img {
           user-select: none;
           pointer-events: none;
           height: 35px;
           margin-bottom: 20px;
         }
+
         h3 {
           font-size: 22px;
         }
+
         p {
           text-transform: uppercase;
           margin-top: 5px;
@@ -2192,6 +2434,7 @@ button {
     transform: translate(-100%, 0);
 
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+
     li {
       padding: 5px;
       font-size: 14px;
@@ -2200,48 +2443,59 @@ button {
   .hero-section {
     width: 100%;
     height: 100vh;
+
     .hero-wrapper {
       justify-content: center;
       width: 100%;
+
       .hero-title {
         top: 58%;
+
         h1 {
           font-size: 30px;
         }
       }
+
       .hero-buttons {
         position: fixed;
         top: 87%;
+
         a {
           button {
             width: 100%;
             height: 45px;
             font-size: 10px;
           }
+
           button#activated {
-              font-size: 10px;
+            font-size: 10px;
           }
         }
       }
+
       .hero-text {
         width: 90%;
         top: 67%;
         font-size: 14px;
       }
     }
+
     .ship {
       display: none;
     }
+
     .mars {
       position: absolute;
       top: 57%;
       left: 90%;
       z-index: 2;
+
       .tentacle {
         display: none;
         top: -190px;
         right: -90px;
       }
+
       .flag {
         display: none;
       }
@@ -2251,11 +2505,14 @@ button {
         width: 210px;
       }
     }
+
     .roadmap {
       margin-top: 140px;
+
       .roadmap-img {
         display: none;
       }
+
       .container {
         margin-top: 100px;
         width: 70%;
@@ -2267,37 +2524,47 @@ button {
   .about {
     margin-top: -170px;
     text-align: center;
+
     h1 {
       font-size: 30px;
     }
+
     h3 {
       font-size: 15px;
     }
+
     .about-text {
       margin-top: 70px;
       width: 80%;
+
       h2 {
         font-size: 18px;
       }
+
       p {
         text-align: center;
         font-size: 14px;
       }
     }
+
     .about-img {
       display: none;
     }
+
     .about-bottom {
       width: 90%;
       height: 430px;
       flex-direction: column-reverse;
+
       .hero-buttons {
         margin-top: 30px;
         display: flex;
         justify-content: space-between;
         width: 100%;
+
         .btn-wrapper {
           margin-top: -90px;
+
           button {
             width: 120px;
             height: 45px;
@@ -2305,14 +2572,17 @@ button {
           }
         }
       }
+
       .bottom-text {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
         margin-top: 46px;
+
         div {
           margin-top: 10px;
+
           p {
             text-align: center;
             font-size: 14px;
@@ -2325,25 +2595,32 @@ button {
     h1 {
       font-size: 30px;
     }
+
     margin-top: 140px;
+
     .roadmap-img {
       display: none;
     }
+
     .content {
       display: flex;
       justify-content: center;
     }
+
     .container {
       margin-top: 80px;
       width: 100%;
       height: 500px;
       position: relative;
+
       .btn {
         display: none;
       }
+
       .rightbox {
         height: 100%;
       }
+
       .rb-container {
         .rb {
           width: 340px;
