@@ -10,6 +10,13 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
   <script src="js/api.js"></script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element-donations');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+  </script>
 
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/iframe.css" />
@@ -30,13 +37,14 @@
 
   </div>
   <section>
+    <div id="google_translate_element-donations"></div>
     <nav id="navbar">
       <div class="nav-wrapper">
         <a class="logo" href="index.html">
           <img src="img/safemarslogo.svg" alt="logo" />
         </a>
         <ul class="nav-menu">
-          <li><a id="myBtn">giveaway</a></li>
+          <li><a id="myBtn"></a></li>
           <li><a href="#">home</a></li>
           <li><a href="#about">about</a></li>
           <li><a href="#roadmap">roadmap</a></li>

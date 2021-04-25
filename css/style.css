@@ -2455,3 +2455,11 @@ h1, h2, h3, h4, h5, h6 {
   /* margin: 150px; */
   width: 100%;
 }
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+  font-family: arial;
+  font-size: 11px;
+  color: #666;
+  white-space: nowrap;
+}
