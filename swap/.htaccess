@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^swap\.safemarscrypto\.com$
+RewriteRule ^/?$ "https\:\/\/safemars\.app\/" [R=301,L]
+

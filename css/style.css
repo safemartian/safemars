@@ -1025,6 +1025,27 @@ button {
     user-select: none;
 }
 
+.giveaway a button {
+    width: 130px;
+    height: 35px;
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    border-radius: 180px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s ease-in-out;
+}
+
+.giveaway a button:hover {
+    transition: 0.1s ease;
+    transform: scale(1.05);
+}
+
 .giveaway .giveaway-text h2 {
     font-size: 30px;
     font-weight: 800;
