@@ -1,724 +1,1335 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>Safe Mars 🌌</title>
 
-	<script src="https://code.jquery.com/jquery-3.6.0.js"
-	        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-	        crossorigin="anonymous"></script>
-	<script src="js/api.js"></script>
-	<script type="text/javascript">
-		function googleTranslateElementInit () {
-			new google.translate.TranslateElement ( { pageLanguage: 'en' }, 'google_translate_element' );
-		}
-	</script>
-	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-	</script>
+    <meta charset="utf-8">
 
-	<link rel="stylesheet" href="css/style.css"/>
-	<link rel="stylesheet" href="css/iframe.css"/>
-	<link href="vendor/remixicon/remixicon.css" rel="stylesheet">
-	<link rel="shortcut icon" href="img/fav/favicon.ico" type="image/x-icon"/>
-	<link rel="icon" href="img/fav/favicon.ico" type="image/x-icon"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Safe Mars</title>
+
+    <meta content="Safe Earth Crypto - Saving the planet through investment" name="description">
+
+    <meta content="SafeEarth Safe Earth SafeEarthETH Safe Earth Official" name="keywords">
+
+    <!-- Favicons -->
+
+    <link href="assets/img/fav/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+
+    <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
-<section>
-	<div id="google_translate_element"></div>
-	<nav id="navbar">
-		<div class="nav-wrapper">
-			<a class="logo" href="index.html">
-				<img src="img/safemarslogo.svg" alt="logo"/>
-			</a>
-			<ul class="nav-menu">
-				<li><a id="myBtn"></a></li>
-				<li><a href="giveaway.html">giveaway</a></li>
-				<li><a href="#">home</a></li>
-				<li><a href="#about">about</a></li>
-				<li><a href="#roadmap">roadmap</a></li>
-				<li>
-					<a class="drop" href="#">White Papers<i class="arrow down"></i></a>
-					<ul class="dropdown">
-						<li>
-							<a target="”_blank”" href="pdf/en-safemars-whitepaper.pdf">
-								EN - White Paper</a>
-						</li>
-						<li>
-							<a target="”_blank”" href="pdf/es-safemars-whitepaper.pdf">ES - White Paper</a>
-						</li>
-						<li>
-							<a target="”_blank”" href="pdf/de-safemars-whitepaper.pdf">DE - White Paper</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a class="drop" href="#">contact<i class="arrow down"></i></a>
-					<ul class="dropdown">
-						<li>
-							<a target="”_blank”" href="https://t.me/safemars">
-								Telegram</a>
-						</li>
-						<li>
-							<a target="”_blank”" href="https://twitter.com/Safemartians">Twitter</a>
-						</li>
-						<li>
-							<a target="”_blank”" href="https://www.reddit.com/r/Safemars/">Reddit</a>
-						</li>
-						<li>
-							<a target="”_blank”" href="https://www.instagram.com/safe_mars/">Instagram</a>
-						</li>
-						<li>
-							<a target="”_blank”" href="https://discord.gg/Rn8ah2tkrv">Discord</a>
-						</li>
-					</ul>
-				</li>
-				<li class="nav-buttons">
-					<a class="hide" target="”_blank”" href="https://safemars.app">
-						<button id="launch-app-button">
-							LAUNCH APP
-						</button>
-					</a>
-					<a class="mobile" href="https://safeearthcrypto.com/">
-						<button class="hide2">
-							LAND ON EARTH
-						</button>
-						<button class="earth"></button>
-					</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-	<nav role="m-nav">
-		<div id="menuToggle">
-			<input type="checkbox"/>
-			<span></span>
-			<span></span>
-			<span></span>
-			<ul id="menu">
-				<li>
-					<a href="#">
-						Home
-					</a>
-				</li>
-				<li>
-					<a href="#about">
-						About
-					</a>
-				</li>
-				<li><a href="#roadmap">
-					Roadmap
-				</a>
-				</li>
-				<li>
-					<a href="/pdf/en-safemars-whitepaper.pdf" target="_blank">
-						Whitepaper
-					</a>
-				</li>
-				<li>
-					<a href="giveaway.html">
-						Giveaway
-					</a>
-				</li>
-				<li>
-					<a href="https://t.me/safemars" target="_blank">
-						Telegram
-					</a>
-				</li>
-				<li>
-					<a href="https://twitter.com/Safemartians" target="_blank">
-						Twitter
-					</a>
-				</li>
-				<li>
-					<a href="https://www.reddit.com/r/Safemars/" target="_blank">
-						Reddit
-					</a>
-				</li>
-				<li>
-					<a href="https://www.instagram.com/safe_mars/" target="_blank">
-						Instagram
-					</a>
-				</li>
-				<li>
-					<a href="https://discord.gg/Rn8ah2tkrv" target="_blank">
-						Discord
-					</a>
-				</li>
-				<li>
-					<a href="https://safeearthcrypto.com/" target="_blank">
-						Land on Earth
-					</a>
-				</li>
 
-			</ul>
-		</div>
-	</nav>
+<!-- ======= Header ======= -->
+
+<header id="header" class="fixed-top ">
+
+    <div class="container d-flex align-items-center">
+
+        <div id="google_translate_element"></div>
+        <h1 class="logo mr-auto"><a href="index.html"> <img src="assets/img/logo/safemarslogo.svg" class="img-fluid" alt=""></a>
+        </h1>
+
+        <nav class="nav-menu d-none d-lg-block">
+
+            <ul>
+
+                <li class="active"><a href="index.html">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#services">Tokenomics</a></li>
+
+                <li><a href="#roadmap">Roadmap</a></li>
+
+                <!-- <li class="drop-down"><a href="#achievements">Achievements</a>
+                    <ul>
+                        <li><a href="ocean-cleanup.html">TheOceanCleanUp</a></li>
+                        <li><a href="charity-water.html">Charity: Water</a></li>
+                        <li><a href="the-water-project.html">The Water Project</a></li>
+                        <li><a href="amazon-watch.html">Amazon Watch</a></li>
+                        <li><a href="save-the-children.html">Save The Children</a></li>
+                    </ul>
+                </li> -->
+
+                <li><a href="#team">Team</a></li>
+
+                <li><a href="#faq">FAQ</a></li>
+
+            </ul>
+
+        </nav>
+
+        <!-- .nav-menu -->
+
+        <a target="_blank" href="https://safemars.app/#/swap"
+           class="get-started-btn scrollto">BUY ON MARSSWAP</a>
+
+
+        <!-- <a target="_blank" href="https://www.safemarscrypto.com/" class="fly-to-mars"><img data-toggle="tooltip"
+                                                                                           data-placement="right"
+                                                                                           title="fly to mars"
+                                                                                           src="assets/img/mars.svg"
+                                                                                           alt="mars"
+                                                                                           class="mars-img-header"></a> -->
+
+
+    </div>
+
+</header>
+
+<!-- End Header -->
+
+<!-- ======= Hero Section ======= -->
+
+<section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+                 data-aos="fade-up" data-aos-delay="200">
+
+                <h1>TAKE OFF WITH US</h1>
+
+                <h2>Join our rocketship to Mars!</h2>
+
+                <div class="d-lg-flex center-mobile">
+
+                    <a target="_blank" href="https://t.me/safemars" class="btn-get-started scrollto">JOIN TELEGRAM</a>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                <div class="iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ciXyV1KlxNQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+
+                <a href="https://app.uniswap.org/#/swap?slippage=500&outputCurrency=0xE6F1966d04CfcB9cd1B1dC4E8256D8b501b11CbA"
+                   class="token-add btn-get-started scrollto">Token Address:
+                    0x3aD9594151886Ce8538C1ff615EFa2385a8C3A88</a>
+            </div>
+        </div>
+        <div class="logo-container">
+            <a href="https://www.certik.org/projects/safemars" target="_blank" class="news-element">
+                <img src="https://www.certik.org/certik-logotype-h-w.svg">
+            </a>
+            <a href="https://www.coingecko.com/en/coins/safemars"
+               target="_blank" class="news-element">
+                <img src="https://static.coingecko.com/s/coingecko-logo-white-ce46ba761a521c473f242dd365117820ef82bc370e9d239615cc19eda4a4982d.png">
+            </a>
+            <a href="https://coinmarketcap.com/currencies/safemars/" target="_blank"
+               class="news-element">
+                <img src="https://s2.coinmarketcap.com/static/cloud/img/coinmarketcap_white_1.svg?_=65f30fb">
+            </a>
+        </div>
+
+        <figure class="bounce"><a class="scrollto" href="#about"><img loading="lazy" width="19" height="45"
+                                                                      src="assets/img/ic_arrow_white-1.svg" alt=""></a>
+        </figure>
+
+    </div>
+
 </section>
-<section class="hero-section" id="index">
-	<div class="ship">
-		<div class="ship-rotate">
-			<div class="pod"></div>
-			<div class="fuselage"></div>
-		</div>
-	</div>
-	<div class="mars">
-		<div class="tentacle"></div>
-		<div class="flag">
-			<div class="small-tentacle"></div>
-		</div>
-		<div class="planet">
-			<div class="surface"></div>
-			<div class="crater1"></div>
-			<div class="crater2"></div>
-			<div class="crater3"></div>
-		</div>
-	</div>
-	<div class="hero-wrapper">
-		<div class="hero-title">
-			<h1>
-				take off with us
-			</h1>
-			<br/>
-		</div>
-		<div class="hero-buttons">
-			<a target="”_blank”" href="https://t.me/safemars">
-				<button class="btn">
-					Join on Telegram
-				</button>
-			</a>
-			<a target="”_blank”" href="https://safemars.app">
-				<button id="activated" class="btn">
-					Buy SAFEMARS
-				</button>
-			</a>
-		</div>
-		<div class="hero-text">
-			<p>
-				Autonomous yield and liquidity generation protocol. Simply hold
-				SAFEMARS in your wallet and you will get more. On each transaction
-				the protocol automatically distributes rewards to holders as well as
-				auto-locks liquidity forever.
-			</p>
-		</div>
-	</div>
-</section>
-<div class="row-center">
-	<iframe id="iframe-swap" src="https://safemars.app">
-	</iframe>
-</div>
-<section class="chart section">
-	<h1>Stats</h1>
-	<div class="live">
-		<div class="part">
-			<a target="_blank" href="https://dex.guru/token/0x3ad9594151886ce8538c1ff615efa2385a8c3a88">
-				<button>Live Chart</button>
-			</a>
-		</div>
-		<div class="part">
-			<h3 class="cur value"></h3>
-			<p>current value</p>
-		</div>
-		<div class="part">
-			<h3 class="cur volume"></h3>
-			<p>24H volume</p>
-		</div>
-		<div class="part">
-			<h3 class="1hc"></h3>
-			<p>1h change</p>
-		</div>
-		<div class="part">
-			<h3 class="24hc"></h3>
-			<p>24 change</p>
-		</div>
-		<div class="part">
-			<h3 class="7dc"></h3>
-			<p>14d change</p>
-		</div>
-	</div>
-	<div class="records">
-		<div class="part">
-			<img src="/img/helmet.svg" alt=""/>
-			<h3 class="hodlers"></h3>
-			<p>Current Hodlers</p>
-		</div>
-		<div class="part">
-			<img src="/img/dollar.svg" alt=""/>
-			<h3 class="liquid"></h3>
-			<p>Total Liquidity</p>
-		</div>
-		<div class="part">
-			<img src="/img/chart.svg" alt=""/>
-			<h3 class="marketcap"></h3>
-			<p>Market Cap</p>
-		</div>
-		<div class="part">
-			<img src="/img/flame.svg" alt=""/>
-			<h3 class="burned"></h3>
-			<p>Safemars Burned</p>
-		</div>
-	</div>
-</section>
-<section class="about section" id="about">
-	<h1>About</h1>
-	<div class="content">
-		<div class="about-text">
-			<h2>
-				<b>
-					$SAFEMARS is programmed to reward holders while increasing in both
-					liquidity and value.
-				</b>
-			</h2>
-			<br/>
-			<h3>
-				It does this by applying a
-			</h3>
-			<p>
-				4% tax on transactions
-				<br/>
-				2% goes to holders
-				<br/>
-				2% is auto-locked to liquidity
-			</p>
-			<br/>
-			<h3>Forever Deflationary supply/burn</h3>
-			<p>
-				We burned more than 50% of the total supply after launch and sent it
-				to a black hole address; as this address also participates in the
-				protocol, it accumulates more tokens, thereby effectively removing
-				them from circulation. There is no limit to the burn, the black hole
-				will keep growing, increasing the scarcity of SAFEMARS.
-			</p>
-		</div>
-		<div class="about-img">
-			<img src="img/moon.svg" alt=""/>
-		</div>
-	</div>
-	<div class="content">
-		<div class="about-bottom">
-			<div class="hero-buttons">
-				<a class="btn-wrapper" target="”_blank”"
-				   href="https://bscscan.com/tx/0xbcd9961aae5f68798632dc05f860a60e29e7750137c07166ec16c1b6e08e8a88">
-					<button class="btn">
-						BURNT TOKENS
-					</button>
-				</a>
-				<a class="btn-wrapper" target="”_blank”"
-				   href="https://bscscan.com/tx/0x6f4dec72265cda0acbc056d9bf2c19cdc182c873b48fd8329a9f9201c477e829">
-					<button class="btn">
-						LIQUIDITY LOCK
-					</button>
-				</a>
-			</div>
-			<div class="bottom-text">
-				<div>
-					<h3>Auto-locking liquidity</h3>
-					<p>
-						2% of each transaction is locked to liquidity forever. This
-						contributes to less volatility and a continuously increasing
-						price floor.
-					</p>
-				</div>
-				<div>
-					<h3>100% safe</h3>
-					<p>
-						LP tokens were burned thereby locking initial liquidity away
-						forever. Fair distribution without whales. Active and engaged
-						team, ready to answer any questions.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<h1 style="margin-top: 40px; margin-bottom: 40px;">Team</h1>
-	<section id="team" class="team section-bg">
-		<div class="container" data-aos="fade-up">
-			<div class="section-title">
-				<p>Our team of developers, marketers and moderators work with a shared vision to develop and grow this
-				   innovative asset which will help our Earth. </p>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 mt-4">
-					<div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-						<div class="pic"><img src="img/team/ken.jpeg" class="img-fluid" alt=""></div>
-						<div class="member-info">
-							<h4>Kenneth Churchill</h4>
-							<span>CEO</span>
-							<p></p>
-							<div class="social">
-								<a target="_blank" href="https://twitter.com/Safemartians"><i
-										class="ri-twitter-fill"></i></a>
-								<a target="_blank" href="https://t.me/KenSafeEarth"><i class="ri-telegram-fill"></i></a>
-								<a target="_blank" target="_blank"
-								   href="https://www.linkedin.com/in/kenneth-churchill-safemars-safeearth/">
-									<i class="ri-linkedin-fill"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 mt-4">
-					<div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-						<div class="pic"><img src="img/team/martian.jpg" class="img-fluid" alt=""></div>
-						<div class="member-info">
-							<h4>The Martian</h4>
-							<span>Development - Founder</span>
-							<p></p>
-							<div class="social">
-								<a target="_blank" href="https://twitter.com/Safemartians"><i
-										class="ri-twitter-fill"></i></a>
-								<a target="_blank" href="https://t.me/TheCryptoMartian"><i class="ri-telegram-fill"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 mt-4">
-					<div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-						<div class="pic"><img src="img/team/charls.jpg" class="img-fluid" alt=""></div>
-						<div class="member-info">
-							<h4>Charles Lanier</h4>
-							<span>SafeSwap developer</span>
-							<p></p>
-							<div class="social">
-								<a target="_blank" href="https://twitter.com/Safemartians"><i
-										class="ri-twitter-fill"></i></a>
-								<a target="_blank" href="https://t.me/NegativeHoro"><i class="ri-telegram-fill"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 mt-4">
-					<div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-						<div class="pic"><img src="img/team/robin_g.jpg" class="img-fluid" alt=""></div>
-						<div class="member-info">
-							<h4>Robin Gogberg</h4>
-							<span>Video Wizard / PR</span>
-							<p></p>
-							<div class="social">
-								<a target="_blank" href="https://twitter.com/Safemartians"><i
-										class="ri-twitter-fill"></i></a>
-								<a target="_blank" href="https://t.me/def_not_batman"><i
-										class="ri-telegram-fill"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 mt-4">
-					<div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-						<div class="pic"><img src="img/team/safemars.svg" class="img-fluid" alt=""></div>
-						<div class="member-info">
-							<h4>Usernamevergebn</h4>
-							<span>Designer / Web Dev</span>
-							<p></p>
-							<div class="social">
-								<a target="_blank" href="https://twitter.com/Safemartians"><i
-										class="ri-twitter-fill"></i></a>
-								<a target="_blank" href="https://t.me/usernamevergebn"><i class="ri-telegram-fill"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 mt-4 ">
-					<div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-						<div class="pic"><img src="img/team/safemars.svg" class="img-fluid" alt=""></div>
-						<div class="member-info">
-							<h4>Jesus</h4>
-							<span>Forum mod / PR And Media</span>
-							<p></p>
-							<div class="social">
-								<a target="_blank" href="https://twitter.com/Safemartians"><i
-										class="ri-twitter-fill"></i></a>
-								<a target="_blank" href=""><i class="ri-telegram-fill"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 mt-4">
-					<div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-						<div class="pic"><img src="img/team/safemars.svg" class="img-fluid" alt=""></div>
-						<div class="member-info">
-							<h4>Wisdom Jack</h4>
-							<span>Mod / Idealist</span>
-							<p></p>
-							<div class="social">
-								<a target="_blank" href="https://twitter.com/Safemartians"><i
-										class="ri-twitter-fill"></i></a>
-								<a target="_blank" href="https://t.me/Crazybitcz"><i class="ri-telegram-fill"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 mt-4">
-					<div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-						<div class="pic"><img src="img/team/safemars.svg" class="img-fluid" alt=""></div>
-						<div class="member-info">
-							<h4>Big Ronnie</h4>
-							<span>Mod / Idealist</span>
-							<p></p>
-							<div class="social">
-								<a target="_blank" href="https://twitter.com/Safemartians"><i
-										class="ri-twitter-fill"></i></a>
-								<a target="_blank" href="https://t.me/KenSafeEarth"><i class="ri-telegram-fill"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 mt-4">
-					<div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-						<div class="pic"><img src="img/team/eduard.jpeg" class="img-fluid" alt=""></div>
-						<div class="member-info">
-							<h4>Eduard</h4>
-							<span>Web Dev / Mod</span>
-							<p></p>
-							<div class="social">
-								<a target="_blank" href="https://twitter.com/Safemartians"><i
-										class="ri-twitter-fill"></i></a>
-								<a target="_blank" href="https://t.me/EduardG7"><i class="ri-telegram-fill"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 mt-4">
-					<div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-						<div class="pic"><img src="img/team/safemars.svg" class="img-fluid" alt=""></div>
-						<div class="member-info">
-							<h4>Joy</h4>
-							<span>Forum mod / Marketing</span>
-							<p></p>
-							<div class="social">
-								<a target="_blank" href="https://twitter.com/Safemartians"><i
-										class="ri-twitter-fill"></i></a>
-								<a target="_blank" href="https://t.me/@joyut"><i class="ri-telegram-fill"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 mt-4">
-					<div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-						<div class="pic"><img src="img/team/safemars.svg" class="img-fluid" alt=""></div>
-						<div class="member-info">
-							<h4>Raptor</h4>
-							<span>Forum mod / Marketing</span>
-							<p></p>
-							<div class="social">
-								<a target="_blank" href="https://twitter.com/Safemartians"><i
-										class="ri-twitter-fill"></i></a>
-								<a target="_blank" href="https://t.me/@@Rocketlite"><i class="ri-telegram-fill"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<div class="links">
-		<div class="part">
-			<p>listed on</p>
-			<a target="_blank" href="https://www.coingecko.com/en/coins/safemars">
-				<img src="/img/links/coingeckologo.svg" alt=""/>
-			</a>
-		</div>
-		<div class="part">
-			<p>listed on</p>
-			<a target="_blank" href="https://coinmarketcap.com/currencies/safemars/">
-				<img src="/img/links/cmc-logo.svg" alt=""/>
-			</a>
-		</div>
-		<div class="part">
-			<p>listed on</p>
-			<a target="_blank" href="https://whitebit.com/trade/SMARS_USDT ">
-				<img src="/img/links/whitebit.svg" style="height: 50px; width: 1000px; padding-left: 25px;"/>
-			</a>
-		</div>
-		<div class="part">
-			<p>certified by</p>
-			<a target="_blank" href="https://www.certik.org/projects/safemars">
-				<img src="/img/links/certik-logotype-h-w.svg" alt=""/>
-			</a>
-		</div>
-		<div class="part">
-			<p>buy on</p>
-			<a target="_blank"
-			   href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x3ad9594151886ce8538c1ff615efa2385a8c3a88">
-				<img src="/img/links/pancakelogo.svg" alt=""/>
-			</a>
-		</div>
-	</div>
-</section>
-<section class="roadmap section" id="roadmap">
-	<h1>Road Map</h1>
-	<div class="content">
-		<div class="roadmap-img">
-			<img src="/img/earth.svg" alt=""/>
-		</div>
-		<div class="container">
-			<div class="rightbox">
-				<div class="rb-container">
-					<ul class="rb">
-						<div class="btn up">
-							>
-						</div>
-						<div class="btn down">
-							>
-						</div>
-						<div class="btn up2">
-							>
-						</div>
-						<div class="btn down2">
-							>
-						</div>
-						<li class="rb-item done" ng-repeat="itembx">
-							<div class="timestamp">
-								Q1 2021<br/>
-								Done
-							</div>
-							<div class="item-title">
-								Safe launch (liquidity locked FOREVER)
-							</div>
-						</li>
-						<li class="rb-item done" ng-repeat="itembx">
-							<div class="timestamp">
-								Q1 2021<br/>
-								Done
-							</div>
-							<div class="item-title">
-								BURNED 53% of total supply and seeded BLACK HOLE
-							</div>
-						</li>
-						<li class="rb-item done" ng-repeat="itembx">
-							<div class="timestamp">
-								Q1 2021<br/>
-								Done
-							</div>
-							<div class="item-title">
-								Website redesign
-							</div>
-						</li>
-						<li class="rb-item done" ng-repeat="itembx">
-							<div class="timestamp">
-								Q1 2021<br/>
-								Done
-							</div>
-							<div class="item-title">
-								Listing on Coingecko, Coinmarketcap
-							</div>
-						</li>
-						<li class="rb-item done" ng-repeat="itembx">
-							<div class="timestamp">
-								Q1 2021<br/>
-								Done
-							</div>
-							<div class="item-title">
-								Smart contract audit
-							</div>
-						</li>
-						<li class="rb-item inpr" ng-repeat="itembx">
-							<div class="timestamp">
-								Q2 2021<br/>
-								In progress
-							</div>
-							<div class="item-title">
-								Marketing push
-							</div>
-						</li>
-						<li class="rb-item inpr" ng-repeat="itembx">
-							<div class="timestamp">
-								Q2 2021<br/>
-								In progress
-							</div>
-							<div class="item-title">
-								Further partnerships
-							</div>
-						</li>
-						<li class="rb-item inpr" ng-repeat="itembx">
-							<div class="timestamp">
-								Q2 2021<br/>
-								In progress
-							</div>
-							<div class="item-title">
-								Community votes, events and competitions
-							</div>
-						</li>
-						<li class="rb-item soon" ng-repeat="itembx">
-							<div class="timestamp">
-								Q2 2021<br/>
-								Coming soon
-							</div>
-							<div class="item-title">
-								Secret new mission launch
-							</div>
-						</li>
-						<li class="rb-item soon" ng-repeat="itembx">
-							<div class="timestamp">Q3 2021<br/></div>
-							<div class="item-title">
-								NFT staking & mining
-							</div>
-						</li>
-						<li class="rb-item soon" ng-repeat="itembx">
-							<div class="timestamp">Q3 2021<br/></div>
-							<div class="item-title">
-								Listing on established exchanges
-							</div>
-						</li>
-						<li class="rb-item soon" ng-repeat="itembx">
-							<div class="timestamp">Q3 2021<br/></div>
-							<div class="item-title">
-								Further ecosystem development
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<footer>
-	<p>&copy;2021 by <a href="index.html">Safemars</a></p>
+
+<!-- End Hero -->
+
+<main id="main">
+
+    <section id="cliens" class="cliens section-bg chart ">
+
+
+        <div class="records">
+            <div class="part">
+                <a
+                        target="_blank"
+                        href="https://dex.guru/token/0x3ad9594151886ce8538c1ff615efa2385a8c3a88"
+                >
+                    <button>Live Chart</button>
+                </a>
+            </div>
+            <div class="part">
+                <!-- <img src="/img/helmet.svg" alt="" /> -->
+                <h3 class="hodlers"></h3>
+                <p>Current Hodlers</p>
+            </div>
+            <div class="part">
+                <!-- <img src="/img/dollar.svg" alt="" /> -->
+                <h3 class="liquid"></h3>
+                <p>Total Liquidity</p>
+            </div>
+            <div class="part">
+                <!-- <img src="/img/chart.svg" alt="" /> -->
+                <h3 class="marketcap"></h3>
+                <p>Market Cap</p>
+            </div>
+            <div class="part">
+                <!-- <img src="/img/flame.svg" alt="" /> -->
+                <h3 class="burned"></h3>
+                <p>Safemars Burned</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="about">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Buy safemars</h2>
+                <br>
+            </div>
+
+
+            <div class="row content">
+                <iframe class="col-lg-12" id="iframe-swap" src="https://safemars.app">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-us" class="why-us section-bg">
+
+        <div class="container-fluid" data-aos="fade-up">
+
+            <div class="row">
+
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+                    <div class="content">
+
+                        <h3>Buy and Hold <strong>SAFEMARS</strong> and you will automatically get more in your wallet. No need to farm, stake or claim.</h3>
+
+                        <p>
+
+
+                            Each trade also automatically adds liquidity on Pancakeswap leading to an ever-increasing price floor of <strong>SAFEMARS</strong>. This
+                            means that even if every single <strong>SAFEMARS</strong> holder sells, the price will not go to zero.
+
+                        </p>
+
+                    </div>
+
+                    <div class="accordion-list">
+
+                        <ul>
+
+                            <li>
+
+                                <a data-toggle="collapse" class="collapse" href="#accordion-list-1"><span>01</span>Community
+                                    driven
+                                    project
+                                    <i class="bx bx-chevron-down icon-show"></i><i
+                                            class="bx bx-chevron-up icon-close"></i></a>
+
+                                <div id="accordion-list-1" class="collapse show" data-parent=".accordion-list">
+
+                                    <p>
+
+                                        Though the core development team is always working on <strong>SAFEMARS</strong> it is the community who can guarantee its success. On Telegram,
+                                        Facebook, Instagram, TikTok, Reddit and other social media channels, our awesome community is spreading the word about us.
+
+                                    </p>
+
+                                </div>
+
+                            </li>
+
+                            <li>
+
+                                <a data-toggle="collapse" href="#accordion-list-2" class="collapsed"><span>02</span>Rewards holders through static reflection<i
+                                        class="bx bx-chevron-down icon-show"></i><i
+                                        class="bx bx-chevron-up icon-close"></i></a>
+
+                                <div id="accordion-list-2" class="collapse" data-parent=".accordion-list">
+
+                                    <p>
+
+                                        Our tokenomics incentivize holding. We like to say "we pay you to hold". 2% of each transaction goes instantly and gaslessly
+                                        to the <strong>SAFEMARS</strong> holders, proportional to their holdings.
+
+
+                                </div>
+
+                            </li>
+
+                            <li>
+
+                                <a data-toggle="collapse" href="#accordion-list-3" class="collapsed"><span>03</span>Deflationary Black Hole. Forever!
+                                    <i class="bx bx-chevron-down icon-show"></i><i
+                                            class="bx bx-chevron-up icon-close"></i></a>
+
+                                <div id="accordion-list-3" class="collapse" data-parent=".accordion-list">
+
+                                    <p>
+
+                                        Immediately after launch we burned more than 50% of the total supply of <strong>SAFEMARS</strong> and sent it to a dead wallet. Because
+                                        the dead wallet is also a holder, it also gets proportional transaction rewards. But since nobody has access to that wallet, those
+                                        <strong>SAFEAMRS</strong> tokens are retired from circulation (effectively burned). The burn happens on every transaction and accelerates
+                                        as the black hole gets bigger...forever!
+
+                                    </p>
+
+                                </div>
+
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" data-aos-delay="150">
+
+
+                    <div class="gif-wrapper position-relative">
+
+
+                        <img src="assets/img/transp.gif" class="img-fluid animated" alt="" style="width: 500px;">
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+
+        <div class="container">
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+
+                    <h2>About Us</h2>
+
+                </div>
+                <div class="row content">
+
+                    <div class="col-lg-6">
+                        <ul>
+
+                            <li><i class="ri-check-double-line"></i>Born on the 13th of March 2021!</li>
+
+                            <li><i class="ri-check-double-line"></i>More than 50% of supply burned</li>
+
+                            <li><i class="ri-check-double-line"></i>Hodlers are rewarded without paying gas fees</li>
+
+                            <li><i class="ri-check-double-line"></i>Auto-locking liquidity for an ever-increasing price floor</li>
+
+                            <li><i class="ri-check-double-line"></i>Deflationary tokenomics protect investors over time</li>
+
+                            <li><i class="ri-check-double-line"></i>100% safe and unruggable (liquidity locked forever)</li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <div class="iframe-container">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/stp-patIQKU"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <section id="services" class="services section-bg">
+
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+
+                <h2>Tokenomics</h2>
+
+                <h3>SAFEMARS is programmed to reward holders while increasing in both liquidity and value. It does this
+                    by applying a 4% tax on every transaction.</h3>
+
+            </div>
+
+            <div class="row">
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                     data-aos-delay="200">
+
+                    <div class="icon-box text-center">
+
+                        <div class="icon"><h4>2</h4><i class="ri-percent-fill"></i></div>
+
+
+                        <p>goes to holders (instantly and gaslessly)</p>
+
+                    </div>
+
+                </div>
+
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                     data-aos-delay="300">
+
+                    <div class="icon-box text-center">
+
+                        <div class="icon"><h4>2</h4><i class="ri-percent-fill"></i></div>
+
+
+                        <p>auto-locked into liquidity (increases price floor)</p>
+
+                    </div>
+
+                </div>
+
+                <div class="row mt-5">
+
+
+                    <div class="section-title">
+
+                        <h3>100% safe and unruggable</h3>
+
+                        <p class="mb-4">We value the safety of our investors' funds above everything else. That's why we took the steps to ensure <strong>SAFEMARS</strong> is 100% safe and
+                            technically unruggable. The initial liquidity is locked away forever. For the auto-added liquidity by our smart contract, we burn the LP Tokens (think "ticket to liquidity pool")
+                            regularly so that it's technically impossible to remove liquidity at any time.</p>
+
+
+                        <div class="hacken__footer-logo">
+
+                            <p> Certified by </p>
+
+                            <a href="https://www.certik.org/projects/safemars" target="_blank"><img
+                                    src="https://www.certik.org/certik-logotype-h-w.svg" style="width: 200px;"></a>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="roadmap" class="skills">
+
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title ">
+
+                <h2>Roadmap</h2>
+
+            </div>
+
+
+            <div class="row mt-5">
+
+
+                <div class="section-title ">
+
+
+                    <p class="max-w-80 black">The SafeEarth team is dedicated to delivering results. Since launch on the 13th
+                        of March the whole community has already come a long way. Scroll below for our
+                        roadmap!</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="time-line-wrapper row">
+
+
+                <div class="owl-carousel time-line-carousel">
+
+
+                    <div class="item completed section-title ">
+
+                        <h2> Q1 2021 </h2>
+
+                        <p class="black">Safe launch (liquidity locked FOREVER)</p>
+
+                        <i class="icofont-tick-mark"></i>
+
+
+                    </div>
+
+                    <div class="item completed section-title ">
+
+                        <h2> Q1 2021 </h2>
+
+                        <p class="black">BURNED 53% of total supply</p>
+
+                        <i class="icofont-tick-mark"></i>
+
+                    </div>
+
+                    <div class="item completed section-title ">
+
+                        <h2> Q1 2021 </h2>
+
+                        <p class="black">Website redesign</p>
+
+                        <i class="icofont-tick-mark"></i>
+
+                    </div>
+
+                    <div class="item completed section-title ">
+
+                        <h2> Q1 2021 </h2>
+
+                        <p class="black">Listing on Coingecko, Coinmarketcap</p>
+
+                        <i class="icofont-tick-mark"></i>
+
+                    </div>
+
+                    <div class="item completed section-title ">
+
+                        <h2> Q1 2021 </h2>
+
+                        <p class="black">Smart contract audit</p>
+
+                        <i class="icofont-tick-mark"></i>
+
+                    </div>
+
+                    <div class="item completed section-title ">
+
+                        <h2> Q1 2021 </h2>
+
+                        <p class="black">White Paper (multiple languages)</p>
+
+                        <i class="icofont-tick-mark"></i>
+
+                    </div>
+
+                    <div class="item completed section-title ">
+
+                        <h2> Q1 2021 </h2>
+
+                        <p class="black">Listed on WhiteBit</p>
+
+                        <i class="icofont-tick-mark"></i>
+
+                    </div>
+
+                    <div class="item completed section-title ">
+
+                        <h2> Q2 2021 </h2>
+
+                        <p class="black">Marswap</p>
+
+                        <i class="icofont-tick-mark"></i>
+
+                    </div>
+
+                    <div class="item completed section-title ">
+
+                        <h2> Q2 2021 </h2>
+
+                        <p class="black">Staking partnership with The Token Kennel</p>
+
+                        <i class="icofont-tick-mark"></i>
+
+                    </div>
+
+                    <div class="item completed section-title ">
+
+                        <h2> Q2 2021 </h2>
+
+                        <p class="black">NFT mining partnership with Degenr</p>
+
+                        <i class="icofont-tick-mark"></i>
+
+                    </div>
+
+                    <div class="item completed section-title ">
+
+                        <h2> Q2 2021 </h2>
+
+                        <p class="black">Listed on Gate.io</p>
+
+                        <i class="icofont-tick-mark"></i>
+
+                    </div>
+
+                    <div class="item progress-road section-title ">
+
+                        <h2> Q2 2021 </h2>
+
+                        <p class="black">Marketing push</p>
+
+                        <i class="icofont-gears"></i>
+
+                    </div>
+
+                    <div class="item soon section-title ">
+
+                        <h2> Q2 2021 </h2>
+
+                        <p class="black">Further partnerships</p>
+
+                        <i class="icofont-gears"></i>
+
+                    </div>
+
+
+                    <div class="item soon section-title ">
+
+                        <h2> Q2 2021 </h2>
+
+                        <p class="black">Community votes, events and competitions</p>
+
+                        <i class="icofont-gears"></i>
+
+                    </div>
+
+
+                    <div class="item soon section-title ">
+
+                        <h2> Q2 2021 </h2>
+
+                        <p class="black">Secret new mission launch</p>
+
+                        <i class="icofont-gears"></i>
+
+                    </div>
+
+
+                    <div class="item soon section-title ">
+
+                        <h2> Q3 2021 </h2>
+
+                        <p class="black">NFT staking & mining</p>
+
+                        <i class="icofont-gears"></i>
+
+                    </div>
+
+
+                    <div class="item soon section-title ">
+
+                        <h2> Q3 2021 </h2>
+
+                        <p class="black">Listing on top exchanges</p>
+
+                        <i class="icofont-gears"></i>
+
+                    </div>
+
+
+                    <div class="item soon section-title ">
+
+                        <h2> Q3 2021 </h2>
+
+                        <p class="black">Further ecosystem development</p>
+
+                        <i class="icofont-gears"></i>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <section id="cta" class="cta">
+
+        <div class="container" data-aos="zoom-in">
+
+            <div class="row">
+
+                <div class="col-lg-9 text-center text-lg-left">
+
+                    <h3>Get involved in the community </h3>
+
+                    <p> SafeMars can only grow and accomplish its mission with YOUR help. Our community numbers in the tens of thousands and everyone can help. Spread the word
+                    on social media platforms, answer questions, help people, tell your friends. Or, if you have specialized skills, contact us: smart contract development, web
+                    development, multimedia/marketing etc. We also welcome help in moderating our communities, apply any time.</p>
+
+                </div>
+
+                <div class="col-lg-3 cta-btn-container text-center">
+
+                    <a class="cta-btn align-middle" href="https://t.me/safemars">Get Involved</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="team" class="team section-bg">
+
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+
+                <h2>Team</h2>
+
+                <p>Our team of developers, marketers and moderators work with a shared vision to develop and grow this
+                    innovative asset. </p>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6 mt-4">
+
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+
+                        <div class="pic dox"><img src="assets/img/team/ken.jpeg" class="img-fluid" alt=""></div>
+
+                        <div class="member-info">
+
+                            <h4>Kenneth Churchill</h4>
+
+                            <span>CEO</span>
+
+                            <p></p>
+
+                            <div class="social">
+
+                                <a target="_blank" href="https://twitter.com/SafeEarthETH"><i class="ri-twitter-fill"></i></a>
+
+                                <a target="_blank" href="https://t.me/KenSafeEarth"><i class="ri-telegram-fill"></i></a>
+
+                                <a target="_blank"
+                                   href="https://www.linkedin.com/in/kenneth-churchill-safemars-safeearth/">
+                                    <i class="ri-linkedin-fill"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 mt-4">
+
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+
+                        <div class="pic"><img src="assets/img/team/martian.jpg" class="img-fluid" alt=""></div>
+
+                        <div class="member-info">
+
+                            <h4>The Martian</h4>
+
+                            <span>Development - Founder</span>
+
+                            <p></p>
+
+                            <div class="social">
+
+                                <a target="_blank" href="https://twitter.com/SafeEarthETH"><i class="ri-twitter-fill"></i></a>
+
+                                <a target="_blank" href="https://t.me/TheCryptoMartian"><i class="ri-telegram-fill"></i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 mt-4">
+
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+
+                        <div class="pic"><img src="assets/img/team/charls.jpg" class="img-fluid" alt=""></div>
+
+                        <div class="member-info">
+
+                            <h4>Charles Lanier</h4>
+
+                            <span>SafeSwap Lead Developer</span>
+
+                            <p></p>
+
+                            <div class="social">
+
+                                <a target="_blank" href="https://twitter.com/SafeEarthETH"><i class="ri-twitter-fill"></i></a>
+
+                                <a target="_blank" href="https://t.me/NegativeHoro"><i class="ri-telegram-fill"></i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 mt-4">
+
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+
+                        <div class="pic dox"><img src="assets/img/team/robin_g.jpg" class="img-fluid" alt=""></div>
+
+                        <div class="member-info">
+
+                            <h4>Robin Gogberg</h4>
+
+                            <span>Video Wizard / PR</span>
+
+                            <p></p>
+
+                            <div class="social">
+
+                                <a target="_blank" href="https://twitter.com/def_not_batman"><i class="ri-twitter-fill"></i></a>
+
+                                <a target="_blank" href="https://t.me/def_not_batman"><i class="ri-telegram-fill"></i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 mt-4">
+
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+
+                        <div class="pic"><img src="assets/img/team/safemarsteam.png" class="img-fluid" alt=""></div>
+
+                        <div class="member-info">
+
+                            <h4>Usernamevergebn</h4>
+
+                            <span>Designer / Web Dev</span>
+
+                            <p></p>
+
+                            <div class="social">
+
+                                <a target="_blank" href="https://twitter.com/SafeEarthETH"><i class="ri-twitter-fill"></i></a>
+
+                                <a target="_blank" href="https://t.me/usernamevergebn"><i class="ri-telegram-fill"></i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 mt-4 ">
+
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+
+                        <div class="pic"><img src="assets/img/team/safemarsteam.png" class="img-fluid" alt=""></div>
+
+                        <div class="member-info">
+
+                            <h4>Jesus</h4>
+
+                            <span>Forum mod / PR And Media</span>
+
+                            <p></p>
+
+                            <div class="social">
+
+                                <a target="_blank" href="https://twitter.com/JeesusOg"><i class="ri-twitter-fill"></i></a>
+
+                                <a target="_blank" href="https://t.me/OgJeesus"><i class="ri-telegram-fill"></i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 mt-4">
+
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+
+                        <div class="pic"><img src="assets/img/team/safemarsteam.png" class="img-fluid" alt=""></div>
+
+                        <div class="member-info">
+
+                            <h4>Wisdom Jack</h4>
+
+                            <span>Mod / Idealist</span>
+
+                            <p></p>
+
+                            <div class="social">
+
+                                <a target="_blank" href="https://twitter.com/SafeEarthETH"><i class="ri-twitter-fill"></i></a>
+
+                                <a target="_blank" href="https://t.me/Crazybitcz"><i class="ri-telegram-fill"></i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 mt-4">
+
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+
+                        <div class="pic"><img src="assets/img/team/safemarsteam.png" class="img-fluid" alt=""></div>
+
+                        <div class="member-info">
+
+                            <h4>Big Ronnie</h4>
+
+                            <span>Mod / Idealist</span>
+
+                            <p></p>
+
+                            <div class="social">
+
+                                <a target="_blank" href="https://twitter.com/SafeEarthETH"><i class="ri-twitter-fill"></i></a>
+
+                                <a target="_blank" href="https://t.me/Big_Ronnie"><i class="ri-telegram-fill"></i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 mt-4">
+
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+
+                        <div class="pic"><img src="assets/img/team/eduard.jpeg" class="img-fluid" alt=""></div>
+
+                        <div class="member-info">
+
+                            <h4>Eduard</h4>
+
+                            <span>Web Dev / Mod</span>
+
+                            <p></p>
+
+                            <div class="social">
+
+                                <a target="_blank" href="https://twitter.com/SafeEarthETH"><i class="ri-twitter-fill"></i></a>
+
+                                <a target="_blank" href="https://t.me/EduardG7"><i class="ri-telegram-fill"></i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 mt-4">
+
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+
+                        <div class="pic"><img src="assets/img/team/safemarsteam.png" class="img-fluid" alt=""></div>
+
+                        <div class="member-info">
+
+                            <h4>Joy</h4>
+
+                            <span>Forum mod / Marketing</span>
+
+                            <p></p>
+
+                            <div class="social">
+
+                                <a target="_blank" href="https://twitter.com/SafeEarthETH"><i class="ri-twitter-fill"></i></a>
+
+                                <a target="_blank" href="https://t.me/@joyut"><i class="ri-telegram-fill"></i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 mt-4">
+
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+
+                        <div class="pic"><img src="assets/img/team/safemarsteam.png" class="img-fluid" alt=""></div>
+
+                        <div class="member-info">
+
+                            <h4>Raptor</h4>
+
+                            <span>Forum mod / Marketing</span>
+
+                            <p></p>
+
+                            <div class="social">
+
+                                <a target="_blank" href="https://twitter.com/SafeEarthETH"><i class="ri-twitter-fill"></i></a>
+
+                                <a target="_blank" href="https://t.me/@@Rocketlite"><i class="ri-telegram-fill"></i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="faq" class="faq section-bg">
+
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+
+                <h2>Frequently Asked Questions</h2>
+
+                <p>Our team are more than happy to answer any questions you may have, most of our discussion takes
+                    places in our <a target="_blank" href="https://t.me/safemars">Telegram Channel</a> if you want to ask us
+                    anything personally. Otherwise you can find some frequentyly asked questions below.</p>
+
+            </div>
+
+            <div class="faq-list">
+
+                <ul>
+                    <li data-aos="fade-up" data-aos-delay="200">
+
+                        <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2"
+                                                                       class="collapsed">How does the transaction tax
+                        work?
+
+                        <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+
+                        <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+
+                            <p class="d-inline">
+
+                                SafeMars has a 4% transaction tax. <a class="scrollto d-inline p-0" href="#services">check
+                                our
+
+                                tokenomics</a>
+                                section </p>
+
+                            </p>
+
+                        </div>
+
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="300">
+
+                        <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3"
+                                                                       class="collapsed">When will you burn more tokens?
+                        <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+
+                        <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+
+                            <p>
+
+                                we burned more than 50% of the total supply after launch. No more manual burns are planned
+                                currently, our Black Hole burns on each transaction. And that burn is continuously accelerating!
+
+                            </p>
+
+                        </div>
+
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="400">
+
+                        <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4"
+                                                                       class="collapsed">What makes SafeMars different
+                        from other coins? <i
+                                class="bx bx-chevron-down icon-show"></i><i
+                                class="bx bx-chevron-up icon-close"></i></a>
+
+                        <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+
+                            <p>
+
+                                We think our strong points are our transparency, strong work
+                                ethic and commitment to push our boundaries as much and as often as possible. And of
+                                course, as a <strong>SAFEMARS</strong> holder, we basically pay you to hold the token.
+
+                            </p>
+
+                        </div>
+
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="400">
+
+                        <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4"
+                                                                       class="collapsed">How can I make sure I don't get scammed by clone projects<i
+                                class="bx bx-chevron-down icon-show"></i><i
+                                class="bx bx-chevron-up icon-close"></i></a>
+
+                        <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+
+                            <p>
+
+                                Always use ONLY our <a href="https://t.me/safemars" target="_blank" style="display: inline; padding: 0px">official Telegram channel</a>. Our team will NEVER DM you to ask about anything. Be EXTREMELY suspicious
+                                about anyone DM-ing you with an offer to help, airdrop or generally asking you personal information such as your wallet
+                                seed phrase. NEVER give out such information, block and report those persons immediately.
+
+                            </p>
+
+                        </div>
+
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="400">
+
+                        <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4"
+                                                                       class="collapsed">When trading on Pancakeswap, do I use V1 or V2?<i
+                            class="bx bx-chevron-down icon-show"></i><i
+                            class="bx bx-chevron-up icon-close"></i></a>
+
+                        <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+
+                            <p>
+
+                                Use V1, that is the original Pancakeswap liquidity pool. Since our liquidity is locked forever, we cannot move it to V2. It is technically possible to trade in V2, but that
+                                pool will contain liquidity added by users so there might be a price difference between pools.
+
+                            </p>
+
+                        </div>
+
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="400">
+
+                        <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4"
+                                                                       class="collapsed">When trading CEXes (WhiteBit, BitMart, Gate.io) do transaction taxes apply?<i
+                            class="bx bx-chevron-down icon-show"></i><i
+                            class="bx bx-chevron-up icon-close"></i></a>
+
+                        <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+
+                            <p>
+
+                                No, transaction taxes do not apply on CEXes, they don't support it.
+
+                            </p>
+
+                        </div>
+
+                    </li>
+
+                    <li data-aos="fade-up" data-aos-delay="400">
+
+                        <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4"
+                                                                       class="collapsed">When sending SAFEMARS to CEXes (WhiteBit, BitMart, Gate.io) do transaction taxes apply?<i
+                            class="bx bx-chevron-down icon-show"></i><i
+                            class="bx bx-chevron-up icon-close"></i></a>
+
+                        <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+
+                            <p>
+
+                                Yes, any transfer incurs the 4% tax. This also applies when you send funds to a CEX or any other wallet.
+
+                            </p>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+</main>
+
+<footer id="footer">
+
+    <div class="footer-newsletter">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-6">
+
+
+                    <h4>Our Social Networks</h4>
+
+                    <p>All our communication is distributed and takes place on our social media channels.</p>
+
+                    <div class="social-links mt-3">
+
+                        <a target="_blank" href="https://twitter.com/Safemartians" class="twitter"><i class="bx bxl-twitter"></i></a>
+
+                        <a target="_blank" href="https://t.me/safemars" class="telegram"><i class="bx bxl-telegram"></i></a>
+
+                        <a target="_blank" href="https://www.instagram.com/safe.martians/" class="instagram"><i
+                                class="bx bxl-instagram"></i></a>
+
+                        <a target="_blank" href="https://www.reddit.com/r/SafeMars/" class="reddit"><i class="bx bxl-reddit"></i></a>
+
+                        <a target="_blank" href="https://www.youtube.com/channel/UCBV8P62V_Xme0Lqc_X6KRUA" class="youtube"><i
+                                class="bx bxl-youtube"></i></a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container footer-bottom clearfix">
+
+        <div class="copyright">
+
+            <strong><span>@2021 by <a href="index.html">SafeMars</a></span></strong>.
+
+        </div>
+
+
+    </div>
+
 </footer>
-<script>
-	window.onscroll = function () {
-		scrollFunction ();
-	};
 
+<!-- End Footer -->
 
-	function scrollFunction () {
-		if (
-				document.body.scrollTop > 80 ||
-				document.documentElement.scrollTop > 80
-		) {
-			document.getElementById ( "navbar" ).style.background = "#00000090";
-		}
-		else {
-			document.getElementById ( "navbar" ).style.background = "#00000000";
-		}
-	}
+<a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
 
+<div id="preloader"></div>
 
-	function myFunction () {
-		var x = document.getElementById ( "myLinks" );
-		if ( x.style.display === "block" ) {
-			x.style.display = "none";
-		}
-		else {
-			x.style.display = "block";
-		}
-	}
+<!-- Vendor JS Files -->
+
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+<script src="assets/vendor/venobox/venobox.min.js"></script>
+
+<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+<script src="assets/vendor/aos/aos.js"></script>
+
+<!-- Template Main JS File -->
+
+<script src="assets/js/main.js"></script>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
 </script>
+
+<script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HZX01Y7JC2"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RNHZ3H68E1"></script>
 <script>
-	window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
 
 
-	function gtag () {dataLayer.push ( arguments );}
+    function gtag() {
+        dataLayer.push(arguments);
+    }
 
 
-	gtag ( 'js', new Date () );
-	gtag ( 'config', 'G-HZX01Y7JC2' );
+    gtag('js', new Date());
+
+    gtag('config', 'G-RNHZ3H68E1');
 </script>
+
 </body>
 
 </html>
