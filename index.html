@@ -46,6 +46,17 @@
 </head>
 
 <body>
+<!-- The Modal -->
+<div id="myModal" class="modal-giveaway">
+
+	<!-- Modal content -->
+	<div class="modal-body">
+		<span id="close-modal">&times;</span>
+		<a href="tesla-giveaway.html" class="giveaway-container" style="height: 100%">
+			<img class="giveaway-modal" src="assets/img/tesla-giveaway.jpg" alt="logo"/>
+		</a>
+	</div>
+</div>
 
 <!-- ======= Header ======= -->
 
@@ -53,7 +64,7 @@
 
 	<div class="container d-flex align-items-center">
 
-		<div id="google_translate_element"></div>
+		<!--		<div id="google_translate_element"></div>-->
 		<h1 class="logo mr-auto"><a href="index.html"> <img src="assets/img/logo/safemarslogo.svg" class="img-fluid"
 		                                                    alt=""></a>
 		</h1>
@@ -64,17 +75,17 @@
 
 				<li class="active"><a href="index.html">Home</a></li>
 
+				<li><a href="tesla-giveaway.html">Win a Tesla</a></li>
+
 				<li class="drop-down"><a href="#about">About</a>
 					<ul>
 						<li><a href="#about">About us</a></li>
 						<li><a href="#faq">FAQ</a></li>
 						<li><a href="#roadmap">Roadmap</a></li>
+						<li><a href="#services">Tokenomics</a></li>
+						<li><a href="#team">Team</a></li>
 					</ul>
 				</li>
-
-				<li><a href="#services">Tokenomics</a></li>
-
-				<li><a href="#team">Team</a></li>
 
 				<li><a href="https://safemars.store/">Store</a></li>
 
@@ -95,7 +106,10 @@
 						</li>
 					</ul>
 				</li>
+				<li class="mobile-only"><a href="https://safeearthcrypto.com/">Fly To Earth</a></li>
 
+
+				<!--				<li class="mobile-visible"><a href="https://safeearthcrypto.com/">Fly to Earth</a></li>-->
 			</ul>
 
 		</nav>
@@ -105,14 +119,13 @@
 		<a target="_blank" href="https://safemars.app/#/swap"
 		   class="get-started-btn scrollto">BUY ON MARSSWAP</a>
 
-
-		<!-- <a target="_blank" href="https://www.safemarscrypto.com/" class="fly-to-mars"><img data-toggle="tooltip"
-																						   data-placement="right"
-																						   title="fly to mars"
-																						   src="assets/img/mars.svg"
-																						   alt="mars"
-																						   class="mars-img-header"></a> -->
-
+		<a target="_blank" href="https://safeearthcrypto.com/" class="fly-to-earth"><img
+				data-toggle="tooltip"
+				data-placement="right"
+				title="fly to earth"
+				src="assets/img/safeearth.svg"
+				alt="earth"
+				class="mars-img-header"></a>
 
 	</div>
 
@@ -123,35 +136,25 @@
 <!-- ======= Hero Section ======= -->
 
 <section id="hero" class="d-flex align-items-center">
-
 	<div class="container">
-
 		<div class="row">
-
-			<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+			<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate"
 			     data-aos="fade-up" data-aos-delay="200">
-
 				<h1>TAKE OFF WITH US</h1>
-
 				<h2>Join our rocketship to Mars!</h2>
-
 				<div class="d-lg-flex center-mobile">
-
 					<a target="_blank" href="https://t.me/safemars" class="btn-get-started scrollto">JOIN TELEGRAM</a>
-
 				</div>
-
 			</div>
-
-			<div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+			<div class="col-lg-6 order-1 order-lg-2 hero-img aos-init aos-animate" data-aos="zoom-in"
+			     data-aos-delay="200">
 				<div class="iframe-container">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/ciXyV1KlxNQ"
 					        title="YouTube video player" frameborder="0"
 					        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					        allowfullscreen></iframe>
+					        allowfullscreen=""></iframe>
 				</div>
-
-				<a href="https://app.uniswap.org/#/swap?slippage=500&outputCurrency=0xE6F1966d04CfcB9cd1B1dC4E8256D8b501b11CbA"
+				<a href="https://app.uniswap.org/#/swap?slippage=500&amp;outputCurrency=0xE6F1966d04CfcB9cd1B1dC4E8256D8b501b11CbA"
 				   class="token-add btn-get-started scrollto">Token Address:
 				                                              0x3aD9594151886Ce8538C1ff615EFa2385a8C3A88</a>
 			</div>
@@ -160,12 +163,10 @@
 			<a href="https://www.certik.org/projects/safemars" target="_blank" class="news-element">
 				<img src="https://www.certik.org/certik-logotype-h-w.svg">
 			</a>
-			<a href="https://www.coingecko.com/en/coins/safemars"
-			   target="_blank" class="news-element">
+			<a href="https://www.coingecko.com/en/coins/safemars" target="_blank" class="news-element">
 				<img src="https://static.coingecko.com/s/coingecko-logo-white-ce46ba761a521c473f242dd365117820ef82bc370e9d239615cc19eda4a4982d.png">
 			</a>
-			<a href="https://coinmarketcap.com/currencies/safemars/" target="_blank"
-			   class="news-element">
+			<a href="https://coinmarketcap.com/currencies/safemars/" target="_blank" class="news-element">
 				<img src="https://s2.coinmarketcap.com/static/cloud/img/coinmarketcap_white_1.svg?_=65f30fb">
 			</a>
 			<a href="https://whitebit.com/trade/SMARS_USDT" target="_blank" class="news-element">
@@ -181,14 +182,11 @@
 				<img src="assets/img/exchanges/gate-io.svg">
 			</a>
 		</div>
-
-
 	</div>
-	<!--	<figure class="bounce"><a class="scrollto" href="#about"><img loading="lazy" width="19" height="45"-->
-	<!--	                                                              src="assets/img/ic_arrow_white-1.svg" alt=""></a>-->
-	<!--	</figure>-->
+
 
 </section>
+
 
 <!-- End Hero -->
 
@@ -464,10 +462,24 @@
 
 					<div class="icon-box text-center">
 
-						<div class="icon"><h4>2</h4><i class="ri-percent-fill"></i></div>
+						<div class="icon"><h4>1</h4><i class="ri-percent-fill"></i></div>
 
 
 						<p>auto-locked into liquidity (increases price floor)</p>
+
+					</div>
+
+				</div>
+
+				<div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+				     data-aos-delay="200">
+
+					<div class="icon-box text-center">
+
+						<div class="icon"><h4>1</h4><i class="ri-percent-fill"></i></div>
+
+
+						<p>towards prizes and rewards for holders</p>
 
 					</div>
 
@@ -1372,8 +1384,6 @@
 
 <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
 
-<script src="assets/vendor/php-email-form/validate.js"></script>
-
 <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
 
 <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
@@ -1398,19 +1408,17 @@
         src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RNHZ3H68E1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HZX01Y7JC2"></script>
 <script>
 	window.dataLayer = window.dataLayer || [];
 
 
-	function gtag () {
-		dataLayer.push ( arguments );
-	}
+	function gtag () {dataLayer.push ( arguments );}
 
 
 	gtag ( 'js', new Date () );
 
-	gtag ( 'config', 'G-RNHZ3H68E1' );
+	gtag ( 'config', 'G-HZX01Y7JC2' );
 </script>
 
 </body>
