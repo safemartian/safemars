@@ -1,0 +1,162 @@
+The Martian
+Hello everyone and welcome to our weekly community ama :wave:
+I'll start as usual with some updates and then some news
+First of all, THANK YOU ALL again for your trust and support, both on SafeMars and SafeEarth! You rock! 🤘
+Second, I'd like to remind everyone to read the pinned message :blush:
+This one:
+
+Starting now we have a ZERO FUD tolerance. Any price comment (including "wen pump") => mute (for price discussions join https://t.me/safemarsearthpricetalk). Any FUD => BAN.
+
+Also, any comment like "my tokens were worth X and now are worth X / 2, but i'm holding" will be considered FUD => BAN.
+Please don't ask the admins to unmute you after :stuck_out_tongue_winking_eye:
+Ok, so let's go
+First of all, the status: we have 410.000 holders of SafeMars and 6.700 holders of SafeEarth :tada:
+Our telegram communities also grew, 47.000 members here and 10.000 in the SafeEarth group :rocket:
+Steady growth is good growth :stuck_out_tongue_winking_eye:
+So what else happened during 1 week since the last AMA, let's see
+Our merch store is live: https://safemars.store/ and orders are rolling in :stuck_out_tongue_winking_eye:
+Safe Mars Merch
+The official Safe Mars merch store!
+
+Maybe more importantly, we had the community vote regarding the 1% liquidity redirection proposal
+If you don't know what that's about, please read here: https://safemarscrypto.medium.com/safemars-tax-redirection-proposal-result-a16c8a937d20
+Medium
+SafeMars tax redirection proposal result
+Yesterday we launched a proposal to redirect 1% of the SafeMars tax applied on each transaction…
+Long story short: the community voted to change the tax from 2% to liquidity to 1% to liquidity.
+
+The other 1% will be used as a revenue stream for the team/project and (depending on volume) will enable us to take SafeMars and SafeEarth to the next level (yes, it is used for both!).
+How? Well, let's see what we did so far (remember, it's been 1 week)
+1. Launched a Tesla giveaway! The registration is now closed, if you entered JUST HODL until next week's AMA when we'll pick a winner on livestream.
+aaaaand....we'll also launch an EVEN BIGGER giveaway :stuck_out_tongue_winking_eye: (we'll reveal it in the next ama)
+2. Burned A LOT of SafeMars: about $370 000 🤯 In 1 week! This is because every time we redirect 1% of the liquidity tax, it's always half SafeMars and half BNB. While we use the BNB for the project, we DO NOT dump the SafeMars on the market, we BURN IT INSTEAD :fire:
+
+This helps by reducing the supply (massively) as well as not impacting the price negatively (in fact it should impact it positively).
+All the burns are published on twitter and can be verified :stuck_out_tongue_winking_eye:
+3. We're actively using and will continue to use the generated revenue to massively step up our marketing efforts. Maybe you already saw a bunch of banners on popular websites, tweets and tiktoks from famous people, with much much more to come (and more on this a bit later)
+Thank you all for voting in favor of this proposal and for your trust! We'll keep working day and night to make these projects great :heart_eyes:
+Also on the topic: EarthFund. It keeps accumulating as we've had good volume on SafeEarth during the last week too.
+We're happy to announce that our next donation will be the biggest yet, 41 ETH or $160 000 at today's value! :tada:
+Maybe some of you saw already that our donations are making A REAL IMPACT in people's lives, if not check out our twitter and videos from the charities!
+Alright, next up, exchanges
+As you've probably seen from our announcements, the listing of SafeEarth on BitMart has been postponed due to some internal technical issues of BitMart. It's now scheduled for the 1st week of June, depending on them. We'll keep you posted on progress.
+Also, you've probably seen the MXC listing fail today. We're not entirely sure what happened, but after talking with them we suppose that:
+1. They wanted to list SafeMars (though didn't contact us)
+2. Listed a clone (wrong token) by mistake
+3. After we made them aware they said they'll take it down
+4. About half an hour later they decided to keep it listed
+
+Needless to say this caused MASSIVE confusion, especially since they tweeted with the hashtag #safemars, as people deposited SafeMars to the clone token address 🤦♂
+
+We tried our best to convince them to delist, but failed. So, for now :warning: PLEASE DO NOT SEND SafeMars tokens to MXC :warning:
+
+They might still list us (the real token), but we don't have a timeline for that.
+I'm sorry for everyone who had issues because of MXC, if only they'd contacted us BEFORE going ahead we could've avoided this situation 🤷‍♀️
+Anyway...
+Sachin Rao joined the group
+
+The Martian
+...we teased you with a new exchange listing on May 12th
+...and we're happy to announce that SafeMars will be listed on: https://www.swft.pro/#/ :tada:
+
+If everything goes smoothly, SafeEarth will be next in a very short time :stuck_out_tongue_winking_eye:
+Please head over to the SWFT website (well, after the AMA) and read up on them, they're pretty cool.
+To get an idea why SWFT is important
+
+And also: https://swftcoin.medium.com/huobi-wallet-is-now-powered-by-swft-blockchains-cross-chain-swaps-4212e3490a55
+Huobi Wallet is now powered by SWFT Blockchain’s cross-chain swaps
+Cross-chain swap at better rates and with lower fees are now available on one of the leading wallet providers in the crypto industry.
+
+:stuck_out_tongue_winking_eye:
+Also on the topic of exchanges I want to make something clear: while we'll continue to pursue listing on various exchanges...
+
+...our goal FROM NOW ON is to get listed on Tier 1 exchanges!
+
+This is NOT easy, but we are confident we'll make it. Why?
+- we have the volume
+- we have the userbase
+- we are legit
+
+It will be hard work and it WILL TAKE time, don't expect it tomorrow or the next day. We will also need to set up a legal entity, which we're working on already:stuck_out_tongue_winking_eye: And of course the liquidity tax redirection proposal also gives us the funds to pay Tier 1 exchange listing fees in a while :stuck_out_tongue_winking_eye:
+So, stay tuned, we can't wait to have good news for you :muscle:
+On the topic of "legit", as many of you know SafeMars got verified by Certik very early. Now why "verified" and not audited?
+
+Because Certik can do two kinds of "audit":
+1. Verification: basically they run their SkyNet tool plus do some manual checks
+2. Full audit
+
+We went for 1 because of lack of funds (at that stage) and also because frankly our contract is not rocket science and the full audit is better suited for farms, exchanges etc. The verification was great and we got an almost perfect score.
+
+However, over time, the community has asked for a full audit...so we're doing it! We already announced it on twitter and will share the results as soon as they're available (ETA end of month).
+Reminder: SafeEarth is already FULLY audited by Hacken :muscle:
+Next up, quick update about our wallet
+Our hero dev @negativehoro teased it during the last AMA and many people were kind of disappointed by the lack of visual "glitz". That's because @negativehoro, being a pure-bred developer, focused on a good backend architecture for it which is critical.
+
+In the meantime though, we released also a UI preview which you can check out on our youtube channel if you haven't seen it already: https://www.youtube.com/watch?v=QCL0Kdw_lQY
+YouTube
+SAFEMARSWALLET - COMING SOON
+Learn more about Safemars and join the journey: www.safemarscrypto.com https://twitter.com/Safemartianshttps://www.instagram.com/safe.martians/https://discor...
+[Video]
+Work on the wallet is progressing well, stay tuned for more updates :stuck_out_tongue_winking_eye:
+Next up: websites!
+
+Last AMA we unveiled the refreshed SafeMars website.
+
+This time we're happy to announce STATISTICS ARE BACK :tada:
+- go to safemarscrypto.com
+- or safeearthcrypto.com 
+
+...and check them out! They're live on both thanks to a new backend API!
+Yes, SafeEarth also has live stats now :tada:
+And speaking of SafeEarth, you might remember that during the last AMA we burned 1 trillion tokens. Well, we're gonna do it again :blush: Burn happening tonight, another 1 trillion :fire:
+Ok, that's it from me, I'll now hand over to Batman and Ken to give you some marketing updates. Take it away guys!
+
+Okay def Not Batman
+
+heeey :)
+Allright, theres a LOT of stuff going on now!
+First of all, what an amazing week. We have really been growing
+Not only in numbers but also as a community
+So again thank you for being awesome across all of our socials!
+In terms of marketing, we have made some HUGE agreements this week.
+We have secured TikTokers, large instagram pages with targeted crypto audiences to be working for us for a long time to come.
+This goes for both Mars and Earth. We also have youtubers coming up ofc. They are in various sizes, talking subscribers etc. But we have managed to secure EXCLUSIVE deals with one big influencer, that will start this monday.
+Regarding the KEVU party and his (very) special guest. Flights are booked, venue is secured and all the tech is in place for the livestream that will take place.
+This is happening on may 22nd. So get ready for an awesome night of good music, a live chat and some surprises to come!
+Later this week, we will set up a livestream on Youtube. KEVU will join and tell us more about him and his vision for both Safemars and SafeEarth.
+You do not want to miss that. More info on that tomorrow. (I mant next week, duh)
+meant* even :))
+As you might remember, we will cross promote this live stream to giive Earth and Mars equal amounts of exposure. And everyone watching it will be able to be a part of the live action in different ways.
+And as usual, we are working very hard to come up with new ways of marketing. We want to think outside the box. But we have also started thinking more INSIDE the box. So we are looking into everything from billboards to banners on different crypto sites, like  Martian said.
+That being said, we will still be welcoming your opinions. We try to read and answer everything that you send us. So keep doing that!
+Allright guys, I'm handing over to Mr. CEO Ken to wrap this up. Once again, thank you for being  an awesome community. Keep spreading the word about Safemars and SafeEarth and we'll keep working as hard as we can!
+
+Ken
+Thank you Batman!  Exciting times ahead :)
+Hello Earthlings and Martians!
+Adding to the Batman update, I wanted to bring you some further updates to where I ended things at our last AMA.
+Our marketing team is expanding rapidly and we have now several third-party companies working alongside us to make sure we cover all aspects of our larger marketing plan and social media campaigns. We will continue to expand our team and listen to the community, you guys have given us some great feedback. Thank you all. :muscle:
+SafeMars is recognized as one of the leading defi tokens on the current market, and we owe it all to you! The community. In addition, our Turkish community grows rapidly, the team and I have not forgotten, we will be allocating a larger part of the marketing fund towards expanding our presence in the region.
+Last week I gave you our vision for SafeEarth - I mentioned that we will be looking to become a legally registered charity. We have been in contact with several specialists who have all said we meet the requirements to become a Legal Registered Charity.  Whilst we decide how to proceed with the paperwork and route to take, I ask all Earthlings to remain patient as these things can take some time. However I can confirm that we will be setting up our first office in the UK :) I will have news for you very soon! In addition, we are in contact with several mainstream media news outlets that are very interested in talking to us and covering our story. Whilst I can't give full details on the story yet, I will provide more information as soon as I can :)
+As for SafeMars, as the Martian said,  we will be registering as a private limited company. This will allow us to expand our team, marketing and gain further trust in our fellow investors. It will also enable us to quickly enter various new markets such as the music industry, hospitality and many others. Becoming a legally registered entity will also allow us to create ever-lasting partnerships with many new influencers and top brands.  This will also take some time and we are currently exploring our best options but we will provide news on the subject very soon!
+I would just end this on a reminder to everyone, SafeMars is not even 2 months old, we launched on the 13th of March and SafeEarth has been around for even less time. We have come such a long way since then, and we have such a long way to go. The team is here, dedicated and working as hard as ever to bring you the best possible news and achievements on a weekly basis. We are pushing harder than ever with our marketing and I know, together we will show the world, what we are capable of SafeMars & SafeEarth are here to stay!
+Thank you, everyone! As always, we couldn't do it without you. Everyone in our team and community is dedicated to both projects equally and we will be pushing forwarder harder than  ever.
+
+I would like to end on a side note if you missed last week's AMA, its available on our website. This one will be up soon after it ends. This will also most likely be our last AMA held in the Telegram group, our next AMA will be streamed live on our website!. Stay tuned for more details.
+
+Earthlings and Martians - Exciting times ahead, lets all unite and push forward!
+We will now be activating the chat to take the weekly AMA questions!
+
+The Martian
+Thank you Ken for all the exciting updates! Very happy and proud of your work as CEO :heart_eyes:
+
+Ken
+Thank you all!
+The Martian
+Thank you Ken for all the exciting updates! Very happy and proud of your work as CEO :heart_eyes:
+:muscle:
+
+The Martian
+Alright, let's unmute and then you guys can ask stuff :stuck_out_tongue_winking_eye: 
+
+Remember though: every day is AMA day as far as we're concerned. Feel free to ask us anything anytime :stuck_out_tongue_winking_eye:
