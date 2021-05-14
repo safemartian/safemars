@@ -4,7 +4,6 @@
 * Author: SafeEarth
  
 */
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -561,14 +560,11 @@ body {
 }
 
 #hero .logo-container {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    margin: 8vh 0 0 0vh;
+    margin: 8vh 0 0 0;
 }
 
 #hero .news-element {
-    margin-right: 30px;
+    align-items: center;
 }
 
 #hero .logo-container a:hover {
@@ -628,6 +624,7 @@ section#cliens a {
 .news-element img {
     width: 142px;
     height: 35px;
+    margin: 0 auto;
 }
 
 @media (max-width: 991px) {
@@ -663,11 +660,8 @@ section#cliens a {
         display: none;
     }
 
-    #hero .logo-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 25px 25px;
+    #hero .center-mobile {
+        justify-content: center;
     }
 
     small.mt-4.text-center {
@@ -834,13 +828,6 @@ section#cliens a {
         display: none;
     }
 
-    #hero .logo-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(7, 1fr);
-        gap: 25px 25px;
-    }
-
     #hero .logo-container a {
         padding: 20px;
     }
@@ -851,10 +838,6 @@ section#cliens a {
 
     #hero .d-lg-flex {
         display: inherit;
-    }
-
-    #hero .center-mobile {
-        justify-content: center;
     }
 
     #hero .btn-get-started {

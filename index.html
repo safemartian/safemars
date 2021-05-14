@@ -41,9 +41,14 @@
 
 	<link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
+	<link rel="stylesheet" type="text/css" href="assets/vendor/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/slick/slick-theme.css">
+
+
 	<!-- Template Main CSS File -->
 
 	<link href="assets/css/style.css" rel="stylesheet">
+
 
 	<!-- Google Tag Manager -->
 	<script>( function ( w, d, s, l, i ) {
@@ -150,7 +155,7 @@
 <!-- ======= Hero Section ======= -->
 
 <section id="hero" class="d-flex align-items-center">
-	<div class="container">
+	<div class="container" style="margin-top: 50px">
 		<div class="row">
 			<div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate"
 			     data-aos="fade-up" data-aos-delay="200">
@@ -173,7 +178,8 @@
 				                                                                0x3aD9594151886Ce8538C1ff615EFa2385a8C3A88</a>
 			</div>
 		</div>
-		<div class="logo-container">
+		<div class="logo-container owl-carousel col-lg-12 flex-column justify-content-center align-items-center autoplay"
+		     id="carousel-exchanges">
 			<a href="https://www.certik.org/projects/safemars" target="_blank" class="news-element">
 				<img src="https://www.certik.org/certik-logotype-h-w.svg">
 			</a>
@@ -194,6 +200,15 @@
 			</a>
 			<a href="https://www.gate.io/en/trade/SAFEMARS_USDT" target="_blank" class="news-element">
 				<img src="assets/img/exchanges/gate-io.svg">
+			</a>
+			<a href="https://www.swft.pro/#/" target="_blank" class="news-element">
+				<img src="https://www.swft.pro/static/img/logo.png">
+			</a>
+			<a href="https://www.biki.com/trade/SAFEMARS_USDT" target="_blank" class="news-element">
+				<img src="https://newbikicoin.oss-cn-hangzhou.aliyuncs.com/biki/logo/web_home_logo.png">
+			</a>
+			<a href="https://v1exchange.pancakeswap.finance/#/swap?outputCurrency=0x3ad9594151886ce8538c1ff615efa2385a8c3a88" target="_blank" class="news-element">
+				<img src="assets/img/exchanges/pancake.svg">
 			</a>
 		</div>
 	</div>
@@ -1399,6 +1414,8 @@
 <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
 
 <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+
+<script type="text/javascript" src="assets/vendor/slick/slick.min.js"></script>
 
 <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 

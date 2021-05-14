@@ -6,23 +6,6 @@
 !( function ( $ ) {
 		"use strict";
 		
-		
-		function copyToClipboard() {
-				const str = document.getElementById('item-to-copy').innerText;
-				const el = document.createElement('textarea');
-				el.value = str;
-				el.setAttribute('readonly', '');
-				el.style.position = 'absolute';
-				el.style.left = '-9999px';
-				document.body.appendChild(el);
-				el.select();
-				document.execCommand('copy');
-				document.body.removeChild(el);
-		}
-		
-		
-		document.querySelector ( "#copy" ).addEventListener ( "click", copy );
-		
 		// Smooth scroll for the navigation menu and links with .scrollto classes
 		var scrolltoOffset = $ ( "#header" ).outerHeight () - 2;
 		$ ( document ).on ( "click", ".nav-menu a, .mobile-nav a, .scrollto", function (
@@ -82,6 +65,49 @@
 								);
 						}
 				}
+				$ ( '.autoplay' ).slick ( {
+																			slidesToShow: 5,
+																			slidesToScroll: 1,
+						
+																			infinite: true,
+																			autoplay: true,
+																			arrows: true,
+																			autoplaySpeed: 2000,
+																			responsive: [
+																					{
+																							breakpoint: 1024,
+																							settings: {
+																									arrows: false,
+																									dots: true,
+																									slidesToShow: 3
+																							}
+																					},
+																					{
+																							breakpoint: 992,
+																							settings: {
+																									arrows: false,
+																									dots: true,
+																									slidesToShow: 3
+																							}
+																					},
+																					{
+																							breakpoint: 768,
+																							settings: {
+																									arrows: false,
+																									dots: true,
+																									slidesToShow: 3
+																							}
+																					},
+																					{
+																							breakpoint: 480,
+																							settings: {
+																									arrows: false,
+																									dots: true,
+																									slidesToShow: 1
+																							}
+																					}
+																			]
+																	} );
 		} );
 		
 		// Mobile Navigation
@@ -427,25 +453,24 @@ $.getJSON (
 		}
 );
 
-setTimeout ( () => {
-		var modal = document.getElementById ( "myModal" );
-		
-		// Get the <span> element that closes the modal
-		var span = document.getElementById ( 'close-modal' );
-		
-		modal.style.display = "flex";
-		
-		// When the user clicks on <span> (x), close the modal
-		span.onclick = () => {
-				console.error ( 'muie' );
-				console.error ( modal );
-				modal.style.display = "none";
-		};
-		
-		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function ( event ) {
-				if ( event.target == modal ) {
-						modal.style.display = "none";
-				}
-		};
-}, 3000 );
+// setTimeout ( () => {
+// 		var modal = document.getElementById ( "myModal" );
+//
+// 		// Get the <span> element that closes the modal
+// 		var span = document.getElementById ( 'close-modal' );
+//
+// 		modal.style.display = "flex";
+//
+// 		// When the user clicks on <span> (x), close the modal
+// 		span.onclick = () => {
+// 				console.error ( modal );
+// 				modal.style.display = "none";
+// 		};
+//
+// 		// When the user clicks anywhere outside of the modal, close it
+// 		window.onclick = function ( event ) {
+// 				if ( event.target == modal ) {
+// 						modal.style.display = "none";
+// 				}
+// 		};
+// }, 3000 );
