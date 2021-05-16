@@ -1164,7 +1164,6 @@ section {
 .chart .records {
     margin-top: 20px;
     width: 1000px;
-    height: 200px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1181,7 +1180,7 @@ section {
 }
 
 .chart .records .part {
-    height: 140px;
+    height: 100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1251,7 +1250,7 @@ section {
 
 @media (max-width: 992px) {
     .chart {
-        height: 400px;
+        height: 100%;
     }
 
     #iframe-swap {
@@ -1263,11 +1262,12 @@ section {
 
     .chart .records {
         flex-direction: column-reverse;
-        margin-bottom: -100px;
+        width: 100%;
+        /*margin-bottom: -100px;*/
     }
 
     .chart .records .part {
-        height: 200px;
+        /*height: 200px;*/
         display: flex;
         justify-content: center;
         align-items: center;
