@@ -480,7 +480,7 @@ body {
 --------------------------------------------------------------*/
 #hero {
     width: 100%;
-    height: 84vh;
+    height: 80vh;
 
     background-color: var(--gray10);
     background-image: radial-gradient(
@@ -560,7 +560,7 @@ body {
 }
 
 #hero .logo-container {
-    margin: 8vh 0 0 0;
+    margin: 6vh 0 0 0;
 }
 
 #hero .news-element {
@@ -629,7 +629,7 @@ section#cliens a {
 
 @media (max-width: 991px) {
     #hero {
-        height: auto;
+        height: 100%;
         text-align: center;
     }
 
@@ -1012,7 +1012,7 @@ section {
 
 .chart {
     width: 100%;
-    height: 150px;
+    height: calc(100% - 80vh);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1636,6 +1636,14 @@ section {
         display: flex;
         align-items: center;
         justify-content: flex-end;
+    }
+
+    #hero{
+        padding-bottom: 0;
+    }
+
+    #hero .logo-container{
+        margin: 8vh 0 0 0;
     }
 }
 
