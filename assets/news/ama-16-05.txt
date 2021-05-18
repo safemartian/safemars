@@ -1,0 +1,488 @@
+The Martian, [16 May 2021 at 22:00:22]:
+Hello all
+
+Welcome to the scheduled community AMA for SafeMars and SafeEarth
+
+The Martian, [16 May 2021 at 22:02:53]:
+As we did the last one in the SafeMars telegram group, we'll do tonight's AMA here 😜
+
+The Martian, [16 May 2021 at 22:03:27]:
+Now, I know what you're already saying, Rose is spamming a lot with this welcome message for new people
+
+The Martian, [16 May 2021 at 22:03:38]:
+The good news is, tonight's AMA will be on livestream 🎉
+
+It's something the community has requested for a long time and we'll start doing it tonight
+
+The Martian, [16 May 2021 at 22:04:26]:
+Please have some patience and also forgive any inevitable hiccups as it's our first time doing it live, the next ones will be better.
+
+We thought we start doing it on livestream tonight also as a warmup for next week's ama when the Tesla competition ends and we'll be picking a random winner on livestream
+
+The Martian, [16 May 2021 at 22:05:17]:
+So we'd like to ideally iron out any kinks tonight so it goes super smooooothly next time 😜
+
+The Martian, [16 May 2021 at 22:06:10]:
+One more thing I want to say before starting
+
+We got some feedback that we're promoting mars more than earth: I hope that by doing the AMAs alternatively in each channel you'll see that we treat them both with equal importance.
+
+True, mars has a "head start" as it was simply launched earlier, but earth will catch up, we're working hard on that 😜
+
+A quick schedule for tonight for orientation
+
+1. Status of SafeMars and SafeEarth (holders, transactions etc)
+
+2. Status of exchange listings
+
+3. Audits
+
+4. Burns and more burns
+
+5. SafeMars on Pancakeswap: V1 vs V2
+
+6. SafeWallet
+
+7. Competitions 😜
+
+8. Marketing updates
+
+9. Status of our legal entities (both company and registered charity)
+
+10. Surprise donation 😜
+
+11. AMA questions
+
+That's about it
+
+So...now would be the time I give you the livestream link...
+
+SafeEarth & SafeMars - Ask me Anything
+Our first live AMA - SafeMars and SafeEarth - + Special Guest! - Join us todaywww.safeearthcrypto.comwww.safemarscrypto.com
+
+https://www.youtube.com/watch?v=7IwwPBAAXuY
+
+boom
+
+enjoy!
+
+I'll keep this group muted and unmute mars
+
+Combot, [16 May 2021 at 22:14:09]:
+EarthSwap
+The best decentralized exchange for SafeEarth.
+
+Combot, [16 May 2021 at 22:14:09]:
+🌎 SafeEarth - Only available at UNISWAP - ETH -⚠️ DO NOT buy SafeEarth with BNB⚠️ - ONLY ETH 🌎
+
+Buy easily on http://safeearth.app - just connect your wallet to ETH chain
+
+The Martian, [16 May 2021 at 22:14:50]:
+We know you can't see Ken...but you can hear him
+
+First time we do it remember, be gentle 😊
+
+I'll try to recap here what Ken is saying
+
+We have...
+
+Mars: 457k holders, 53k in telegram, 1.2 million transactions
+Earth: 7.2k holders, 10k in telegram, 17k transactions
+
+Great growth 💪
+
+About exchanges...
+
+Mars:
+- listed on SWFT
+- will be listed on coinsbit + p2pb2b
+- in talks with two top 25 exchanges (take a bit more time) 😜
+
+Earth:
+- will be listed on SWFT next week
+- will be listed on coinsbit as well (date TBD)
+- will be listed on Bitmart as soon as their technical integration works (eta 1st week of june)
+- In talks with others 😜
+
+Joy, [16 May 2021 at 22:16:37]:
+We can see him but very small
+
+The Martian, [16 May 2021 at 22:16:57]:
+Yea, Ken is basically a thumbnail 😂
+
+On audits...
+
+Just a reminder, SafeMars is verified by Certik and now the full audit is in progress.
+
+There was some FUD about SafeEarth not really being audited by Hacken because it doesn't appear in the list on their website. It's was an oversight, it's now added, check our twitter feed for a link https://twitter.com/SafeEarthETH/status/1393975823204560898 (the link to the hacken page showing the audit is linked there)
+
+Team updates: Charles @negativehoro will be our official CTO 🎉 He's a kickass dev, so happy to have him!!!
+
+We're going ahead with registering our legal entity AS WELL AS a registered charity! 😍
+
+woohoo we now see Ken too!
+
+On donations: we'll be expanding our charitable scope, both in terms of donations as well as in terms of involving community members.!
+
+We'll have a live podcast/ama with BSCNEWS!
+
+We'll be making appearances soon on Bloomberg and TechInsider!!! 💪 🤘
+
+Stringer Bell, [16 May 2021 at 22:24:49]:
+This is HUGE🤯!
+
+The Martian, [16 May 2021 at 22:25:17]:
+Next round of donations will happen very soon too!
+
+Ken, [16 May 2021 at 22:25:44]:
+Hello everyone :)
+
+The Martian, [16 May 2021 at 22:26:22]:
+Let me also write some quick stuff...
+
+There's been a lot of confusion regarding trading of SafeMars on pancakeswap v1/v2
+
+Reminder: continue trading in V1 for now. There is an annoying popup that you have to get past, but then you can trade in V1. V1 will be supported forever.
+
+We can't move the liquidity we have in V1 (currently $10 million) to V2 because it's locked forever, we don't have the keys to it. HOWEVER, we are slowly adding liquidity to V2 as well, $400k right now.
+
+We foresee that in a few weeks V2 will have several million liquidity so that you can also trade freely in V2. You CAN trade in V2 now as well, the only disadvantage is that because liquidity is not as high as in V1 there might be more slippage. But if you did buy in V2, funds are safe.
+
+Welcome Peter from The Water Project!
+
+We'll make another donation to The Water Project immediately after the AMA! 😍
+
+Remember everyone, these donations help REAL people, REAL communities and save our planet! Take pride in being part of this amazing effort!
+
+Marketing updates:
+- we're expanding in Asia, Middle-east with a lot of promotion
+- we're also expanding in China
+- KEVU partnership is expanding as well
+
+About the MXC listing of a fake/clone token, as soon as our legal entity is set up, we'll be able to take legal action against them.
+
+Before opening up the chat, one more thing: we'll be burning 1 Trillion more SafeEarth tokens after the AMA and announcing it on twitter 😜
+
+I'll unmute now
+
+unmuted
+
+Ken, [16 May 2021 at 22:38:22]:
+Hello everyone  :)
+
+Ahmed Mohammad, [16 May 2021 at 22:38:33]:
+Can you see my massage
+
+The Martian, [16 May 2021 at 22:38:37 (16 May 2021 at 22:38:39)]:
+Yes
+
+Nice first ama question 😊
+
+Özgür Tatar, [16 May 2021 at 22:38:54]:
+Hi all
+
+Henry Winters, [16 May 2021 at 22:39:05]:
+600 new members since yesterday...100 new holders this weekend. We are growing at a steady, healthy pace.
+
+Akshay, [16 May 2021 at 22:39:11]:
+We  listed safemars initiallly on whitebit why dont we plan the same for safeearth ?
+
+Mehmet Cengiz, [16 May 2021 at 22:39:12]:
+Selamün aleyküm..
+
+Gamba [Never DM first], [16 May 2021 at 22:39:19]:
+Safemars, any news on the DJ livestreaming and big influencers. Maybe waiting on the market to recover?
+
+DemonSeated, [16 May 2021 at 22:39:43]:
+english please
+
+Black, [16 May 2021 at 22:40:01]:
+Its safeearth  here my friend you have a safemars grup
+
+Tez, [16 May 2021 at 22:40:01]:
+Where do the donations come from? Noob question by I'm new to this project as many are
+
+Orkun, [16 May 2021 at 22:40:10]:
+Find some whales to support the community
+
+Ümit Erdümüs, [16 May 2021 at 22:40:12]:
+Aleyküm selam kardeşim
+
+Black, [16 May 2021 at 22:40:16]:
+Same for you
+
+The Martian, [16 May 2021 at 22:40:17]:
+We do, the major issue there is that WhiteBit only supports 8 decimals so the spread would be huge. Other exchanges such as Coinsbit mitigate this by transforming your deposited tokens or USDT into a "special" coin with less decimals. So we can only list on those.
+
+mo, [16 May 2021 at 22:40:19]:
+Safe earth gas fees have been really high last week has prioroty been given to get exchanges on board?
+
+The Martian, [16 May 2021 at 22:40:45]:
+Yes, we're working with Coinsbit to list there asap. SWFT will be NEXT WEEK!
+
+Maybe this is worth saying aloud separately:
+
+SafeEarth will be listed on SWFT next week!
+
+Ramazan Kaleci, [16 May 2021 at 22:41:37]:
+Sir, any news from HUOBI listing?
+
+Mijk, [16 May 2021 at 22:42:04]:
+Is the party still planned for the 22nd of may?
+
+Crypto influencers, [16 May 2021 at 22:42:06]:
+❤️❤️❤️❤️😔🚀❤️❤️🇸🇨❤️😔🤝😔🤝😔❤️
+
+Akshay, [16 May 2021 at 22:42:08]:
+Does swift require KYC ?
+
+The Martian, [16 May 2021 at 22:42:11]:
+We applied, waiting for answer...
+
+Networking, [16 May 2021 at 22:42:16]:
+What was release price for this coin
+
+The Martian, [16 May 2021 at 22:42:34]:
+As far as I know yes
+
+Hatice Kkln, [16 May 2021 at 22:42:40]:
+👏🏻👏🏻👏🏻💪🏻
+
+Akshay, [16 May 2021 at 22:42:59]:
+Applied for both the projects ?
+
+The Martian, [16 May 2021 at 22:43:08]:
+One thing about HUOBI: they MIGHT need us to have a legal entity. So they might only reply once we have it.
+
+The Martian, [16 May 2021 at 22:43:11]:
+Yes.
+
+JP, [16 May 2021 at 22:43:43]:
+Any chance to get listed in Binance?
+
+Akshay, [16 May 2021 at 22:44:00]:
+How can we encourgae safemars community to buy safeearth we have a big audience there
+
+Combot, [16 May 2021 at 22:44:08]:
+EarthSwap
+The best decentralized exchange for SafeEarth.
+
+Combot, [16 May 2021 at 22:44:08]:
+🌎 SafeEarth - Only available at UNISWAP - ETH -⚠️ DO NOT buy SafeEarth with BNB⚠️ - ONLY ETH 🌎
+
+Buy easily on http://safeearth.app - just connect your wallet to ETH chain
+
+The Martian, [16 May 2021 at 22:44:11]:
+We'd like to think so. But we probably need to get listed on other top exchanges first and have great volume before Binance considers us.
+
+Networking, [16 May 2021 at 22:44:19]:
+Are you guys looking to grow the Instagram page up in following as long as marketing services I can provide if interested admin message me I can explain more for you
+
+Mijk, [16 May 2021 at 22:44:30]:
+Can we stake the safemars thru the upcoming safewallet?
+
+Ramazan Kaleci, [16 May 2021 at 22:44:34]:
+How we can progress sir then?
+
+Andi, [16 May 2021 at 22:44:46]:
+Will the merch partner be reconsidered since the quality is a bit weak for the price. Also are there any news for Earth merch?
+
+The Martian, [16 May 2021 at 22:44:54]:
+We are in the process of registering a legal entity as Ken ha said.
+
+The Martian, [16 May 2021 at 22:45:17]:
+Our colleague Jesus is working on that, stay tuned for updates.
+
+Bart, [16 May 2021 at 22:45:19]:
+Good question
+
+Huat!, [16 May 2021 at 22:45:31]:
+What happens if the Tesla winner is not from the US or UK?
+
+Networking, [16 May 2021 at 22:45:33]:
+Send me a message
+
+Hh, [16 May 2021 at 22:45:40]:
+How much Take this proces?
+
+Andi, [16 May 2021 at 22:45:50]:
+Thanks.  Any news on Earth staking?
+
+The Martian, [16 May 2021 at 22:46:12]:
+We're considering several solutions but haven't decided on one yet.
+
+The Martian, [16 May 2021 at 22:46:59]:
+It's not planned for the first version of the wallet, but it's a good idea for a next version 😜
+
+Ahmed Mohammad, [16 May 2021 at 22:47:13]:
+@KenSafeEarth
+
+mo, [16 May 2021 at 22:47:39]:
+are we getting more celebs to shout us out? And use there platforms to spread the word?
+
+The Martian, [16 May 2021 at 22:48:01]:
+Yes, some big partnerships with the electronic music scene in the works 😜
+
+Romans, [16 May 2021 at 22:48:10]:
+OK. I GOT THE POINT OF BEING SAFEEARTH MEMBER - CHARITY.
+BUT WHAT IS THE BIG POINT OF SAFEMARS? EXCEPT FOR SAFEWALLET.
+
+Andi, [16 May 2021 at 22:48:35]:
+How will the Tesla winners wallet be confirmed? A small transaction put to one of you guys?
+
+mo, [16 May 2021 at 22:48:40]:
+Alot people asking questions on youtube live chat
+
+Kevin, [16 May 2021 at 22:48:59]:
+@TheCryptoMartian what’s up with the marketing plan? Week in week out we get the same stuffs please can you share more on this?
+
+The Martian, [16 May 2021 at 22:49:08]:
+I'm not sure you got the point of safeearth tbh.
+
+The point of both tokens is to generate yield for holders. Additional mechanics are there but the main point is to "pay you to hold" 😜
+
+Sasa, [16 May 2021 at 22:49:12]:
+Pity to see less than 100 members watching AMA.
+
+Bart, [16 May 2021 at 22:49:14]:
+Any plans to attract crypto influencers?
+
+The Martian, [16 May 2021 at 22:49:46]:
+Any transaction really, we'll just ask them to dunno, buy 1 token 😊
+
+Joy, [16 May 2021 at 22:50:01]:
+We are working 24/24 with marketing also
+
+Gamba [Never DM first], [16 May 2021 at 22:50:20 (16 May 2021 at 22:50:24)]:
+Billboards in the future. Times square ? ;)
+
+The Martian, [16 May 2021 at 22:50:25]:
+It's not the same stuff. Or be more specific please.
+
+Romans, [16 May 2021 at 22:50:26]:
+Doesnt Mars has any mission, like earth has?
+
+Crypto Hodler, [16 May 2021 at 22:50:27]:
+THIS
+
+Joy, [16 May 2021 at 22:50:46]:
+Also we are working on this ;)
+
+hope we will see them live asap
+
+Networking, [16 May 2021 at 22:50:56 (16 May 2021 at 22:51:33)]:
+Are we looking to grow the social media platform I can show you an example what I can do for us as of no charge just to show
+
+The Martian, [16 May 2021 at 22:50:57]:
+Well yes, ideally we'd like to be the only currency of the future inhabitants of Mars.
+
+Mrr, [16 May 2021 at 22:51:08]:
+I'm not sure I was asking on the right chat lol. But I wanted to know what exactly you have planned for the Tesla giveaway announcement. Is it going to be a mini "media frenzy", articles posted anywhere, youtube discussions etc?
+
+Bart, [16 May 2021 at 22:51:13]:
+Don’t copy safemoon, we have to be more original.
+
+Raffa, [16 May 2021 at 22:51:18]:
+Or if the winner has not the driver license ?
+
+The Martian, [16 May 2021 at 22:51:42]:
+I think Ken already explained, but in a nutshell: we'll pay the cash equivalent 😜
+
+Mijk, [16 May 2021 at 22:51:44]:
+Get #safemars on a rocket
+
+Hh, [16 May 2021 at 22:51:51]:
+?
+
+Darko, [16 May 2021 at 22:51:56]:
+when will be next donation charity?
+
+Ian, [16 May 2021 at 22:51:58]:
+Put flying blimp for safemars as advertisement
+
+Robbie Kurucz, [16 May 2021 at 22:52:08]:
+Hello
+
+The Martian, [16 May 2021 at 22:52:08]:
+If you have any ideas for marketing, DM @KenSafeEarth please 💪
+
+mo, [16 May 2021 at 22:52:11]:
+Where do you see safe earth and mars in a years time?
+
+Kevin, [16 May 2021 at 22:52:11]:
+For safeearth especially we haven’t had any push yet. So many great stuffs you guys have but please what on the marketing push
+
+Andi, [16 May 2021 at 22:52:13]:
+Okay great. Will the wallet adress be announced to public audience after the winner reached out to you?
+
+Joy, [16 May 2021 at 22:52:19]:
+Ken explained , some days
+
+Romans, [16 May 2021 at 22:52:23]:
+Haha. Sounds optimistic. So i should save some SAFEMARS for my grandgrandgrandgrand sons/doughters.
+
+The Martian, [16 May 2021 at 22:52:58]:
+We think the donations are the best marketing we can have. It's a win-win really: we help save the planet and by donating and making a real impact Safeearth has the potential to go global and viral.
+
+The Martian, [16 May 2021 at 22:53:08]:
+Yes 😊
+
+mo, [16 May 2021 at 22:53:14]:
+Ken there was mention of the next competition being bigger any clues?
+
+Crypto Hodler, [16 May 2021 at 22:53:19]:
+Any ETA for Time Square bill board?
+
+Kevin, [16 May 2021 at 22:53:20]:
+Ok thanks
+
+Mrr, [16 May 2021 at 22:53:22]:
+Also, my apologies if someone already asked, and I missed the answer. Have we got any updates on the app?
+
+Rose, [16 May 2021 at 22:53:23]:
+http://safeearth.app
+
+Joy, [16 May 2021 at 22:53:40]:
+Stay tunned :D
+
+Hatice Kkln, [16 May 2021 at 22:53:50]:
+your team and you are great, nice work😊😊
+
+Joy, [16 May 2021 at 22:54:07]:
+It will be bigger ;)
+
+Mijk, [16 May 2021 at 22:54:27]:
+Maybe combined with the chinese market like ken mentioned
+
+mo, [16 May 2021 at 22:56:00]:
+Ken there was mention of article of safe mars on bsc news.. Will safe earth also be mentioned?
+
+Bart, [16 May 2021 at 22:56:03]:
++
+
+Networking, [16 May 2021 at 22:57:39]:
+So I’m guessing you guys don’t want to grow Instagram ? Here is my page
+
+Combot, [16 May 2021 at 22:59:06]:
+EarthSwap
+The best decentralized exchange for SafeEarth.
+
+Combot, [16 May 2021 at 22:59:06]:
+🌎 SafeEarth - Only available at UNISWAP - ETH -⚠️ DO NOT buy SafeEarth with BNB⚠️ - ONLY ETH 🌎
+
+Buy easily on http://safeearth.app - just connect your wallet to ETH chain
+
+Hatice Kkln, [16 May 2021 at 22:59:41]:
+Wooww😎👏🏻
+
+ST, [16 May 2021 at 22:59:56]:
+Anyone can have fake followers, doesn’t mean anything. You can buy them.
+
+The Martian, [16 May 2021 at 22:59:59]:
+why do you say that?
+
+Huat!, [16 May 2021 at 23:00:55]:
+Thank you Ken & Safemars / SafeEarth team
+
+The Martian, [16 May 2021 at 23:01:20]:
+Thank you all for joining the AMA! And thanks to Ken and the team for a great livestream! 😍
