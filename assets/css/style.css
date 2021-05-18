@@ -629,7 +629,7 @@ section#cliens a {
 
 @media (max-width: 991px) {
     #hero {
-        height: auto;
+        height: 100%;
         text-align: center;
     }
 
