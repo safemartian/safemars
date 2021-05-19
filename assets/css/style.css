@@ -1638,10 +1638,6 @@ section {
         justify-content: flex-end;
     }
 
-    #hero{
-        padding-bottom: 0;
-    }
-
     #hero .logo-container{
         margin: 8vh 0 0 0;
     }
