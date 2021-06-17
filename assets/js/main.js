@@ -5,27 +5,27 @@
  */
 !(function ($) {
     "use strict";
-    window.addEventListener('DOMContentLoaded', (event) => {
-        var modal = document.getElementById ( "myModal" );
-    
-        // Get the <span> element that closes the modal
-        var span = document.getElementById ( 'close-modal' );
-    
-        modal.style.display = "flex";
-    
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = () => {
-            console.error ( modal );
-            modal.style.display = "none";
-        };
-    
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function ( event ) {
-            if ( event.target == modal ) {
-                modal.style.display = "none";
-            }
-        };
-    });
+    // window.addEventListener('DOMContentLoaded', (event) => {
+    //     var modal = document.getElementById ( "myModal" );
+    //
+    //     // Get the <span> element that closes the modal
+    //     var span = document.getElementById ( 'close-modal' );
+    //
+    //     modal.style.display = "flex";
+    //
+    //     // When the user clicks on <span> (x), close the modal
+    //     span.onclick = () => {
+    //         console.error ( modal );
+    //         modal.style.display = "none";
+    //     };
+    //
+    //     // When the user clicks anywhere outside of the modal, close it
+    //     window.onclick = function ( event ) {
+    //         if ( event.target == modal ) {
+    //             modal.style.display = "none";
+    //         }
+    //     };
+    // });
     // Smooth scroll for the navigation menu and links with .scrollto classes
     var scrolltoOffset = $("#header").outerHeight() - 2;
     $(document).on("click", ".nav-menu a, .mobile-nav a, .scrollto", function (
