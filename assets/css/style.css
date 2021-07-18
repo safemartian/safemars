@@ -80,6 +80,9 @@ body {
     margin: 10px 0 0 0;
     color: #fff;
     background: rgb(248, 68, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 /* Modal Content/Box */
