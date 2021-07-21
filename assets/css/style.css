@@ -50,6 +50,7 @@ body {
     top: 0px !important;
 }
 
+
 /* The Modal (background) */
 .modal-giveaway {
     display: flex; /* Hidden by default */
@@ -68,12 +69,12 @@ body {
     background-color: rgb(0, 0, 0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
-.btn-how-to-buy{
+
+.btn-modal {
     font-family: "Jost", sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
-    display: inline-block;
     padding: 10px 28px 11px 28px;
     border-radius: 50px;
     transition: 0.5s;
@@ -84,6 +85,7 @@ body {
     justify-content: center;
     align-items: center
 }
+
 
 /* Modal Content/Box */
 .modal-body {
@@ -121,6 +123,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.giveaway-container:hover:before {
+    content: '';
+    background: rgba(0, 0, 0, 0.5);
+    width: 95%;
+    height: 80%;
+    z-index: 999;
+    position: absolute;
 }
 
 .giveaway-modal {
@@ -1654,7 +1665,7 @@ section {
         justify-content: flex-end;
     }
 
-    #hero .logo-container{
+    #hero .logo-container {
         margin: 8vh 0 0 0;
     }
 }
